@@ -32,4 +32,8 @@ The distributed snapshot includes `MANIFEST.json` and `verify_package.py`. Run `
 
 The sanitized repository and Drive archive include only this root README and Markdown files under `artifact/`. They exclude Figure 1 source, separate icon assets, previous Git history, local notes, review reports, old manuscript snapshots, nested release archives, repository clones and build caches. The finished illustration remains visible in the paper and in a flattened image. Artwork attribution is retained under `artifact/licenses/`.
 
-Local source projects retain their original editing files. Existing repositories and frozen release tags remain unchanged. This snapshot is a separate private distribution and does not replace the frozen evidence package cited in the manuscript. Anonymous hosting remains blocked.
+Local source projects retain their original editing files. Existing repositories and frozen release tags remain unchanged. This snapshot is a separate private distribution and does not replace the frozen evidence package cited in the manuscript.
+
+## Anonymous release
+
+The blinded artifact entry point is available at [anonymous.4open.science](https://anonymous.4open.science/r/icpc27-era-e03-sanitized-637D/). The private GitHub repository remains the source repository; this URL is the reviewer-facing anonymous mirror.

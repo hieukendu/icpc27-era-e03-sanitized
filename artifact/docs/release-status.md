@@ -1,5 +1,5 @@
 # Release hosting status
 
-Anonymous GitHub rejected creation because the account exceeded its hosting allowance. The author chose to deliver the local archive and private repository and leave anonymous hosting blocked. No anonymous URL or unauthenticated hosted download verification is claimed. The private repository is not an anonymous reviewer link and is deliberately omitted from the blinded manuscript.
+The anonymous artifact mirror is available at [anonymous.4open.science](https://anonymous.4open.science/r/icpc27-era-e03-sanitized-637D/). The private GitHub repository is the source repository and is deliberately omitted from the blinded manuscript; the anonymous URL is the reviewer-facing entry point.
 
-The local archive is hash-manifested and replay-verified. Future hosting must serve the same frozen content, allow unauthenticated download, pass the manifest verification, and replay successfully before an anonymous URL is added to the paper.
+The local package is hash-manifested and replay-verified. The anonymous mirror must serve the same frozen content, allow unauthenticated download, and be checked against the manifest after each source refresh.
