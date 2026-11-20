@@ -1,0 +1,16 @@
+cohort,false_claim_prevalence,sensitivity,false_positive_rate,precision,ci_lo,ci_hi,undefined_bootstraps,bootstrap_reps,status
+all_frozen_nominal,0.01,0.2913907284768212,0.019867549668874173,0.12903225806451613,0.05842391304347826,1.0,0,2000,Nominal planted labels; synthetic prevalence sensitivity; assistant labels not independent
+all_frozen_nominal,0.05,0.2913907284768212,0.019867549668874173,0.43564356435643564,0.24431818181818182,1.0,0,2000,Nominal planted labels; synthetic prevalence sensitivity; assistant labels not independent
+all_frozen_nominal,0.1,0.2913907284768212,0.019867549668874173,0.619718309859155,0.4056603773584906,1.0,0,2000,Nominal planted labels; synthetic prevalence sensitivity; assistant labels not independent
+all_frozen_nominal,0.25,0.2913907284768212,0.019867549668874173,0.830188679245283,0.671875,1.0,0,2000,Nominal planted labels; synthetic prevalence sensitivity; assistant labels not independent
+all_frozen_nominal,0.5,0.2913907284768212,0.019867549668874173,0.9361702127659575,0.86,1.0,0,2000,Nominal planted labels; synthetic prevalence sensitivity; assistant labels not independent
+without_known_label_errors,0.01,0.2905405405405405,0.013513513513513514,0.1784232365145228,0.07042253521126761,1.0,0,2000,Nominal planted labels; synthetic prevalence sensitivity; assistant labels not independent
+without_known_label_errors,0.05,0.2905405405405405,0.013513513513513514,0.5308641975308642,0.28301886792452835,1.0,0,2000,Nominal planted labels; synthetic prevalence sensitivity; assistant labels not independent
+without_known_label_errors,0.1,0.2905405405405405,0.013513513513513514,0.7049180327868853,0.4545454545454546,1.0,0,2000,Nominal planted labels; synthetic prevalence sensitivity; assistant labels not independent
+without_known_label_errors,0.25,0.2905405405405405,0.013513513513513514,0.8775510204081634,0.7142857142857143,1.0,0,2000,Nominal planted labels; synthetic prevalence sensitivity; assistant labels not independent
+without_known_label_errors,0.5,0.2905405405405405,0.013513513513513514,0.9555555555555555,0.8823529411764707,1.0,0,2000,Nominal planted labels; synthetic prevalence sensitivity; assistant labels not independent
+selected_original_supported,0.01,0.3620689655172414,0.017241379310344827,0.17500000000000002,0.07129455909943715,1.0,0,2000,Nominal planted labels; synthetic prevalence sensitivity; assistant labels not independent
+selected_original_supported,0.05,0.3620689655172414,0.017241379310344827,0.525,0.2857142857142857,1.0,0,2000,Nominal planted labels; synthetic prevalence sensitivity; assistant labels not independent
+selected_original_supported,0.1,0.3620689655172414,0.017241379310344827,0.7,0.4578313253012048,1.0,0,2000,Nominal planted labels; synthetic prevalence sensitivity; assistant labels not independent
+selected_original_supported,0.25,0.3620689655172414,0.017241379310344827,0.875,0.7169811320754716,1.0,0,2000,Nominal planted labels; synthetic prevalence sensitivity; assistant labels not independent
+selected_original_supported,0.5,0.3620689655172414,0.017241379310344827,0.9545454545454546,0.8837209302325582,1.0,0,2000,Nominal planted labels; synthetic prevalence sensitivity; assistant labels not independent

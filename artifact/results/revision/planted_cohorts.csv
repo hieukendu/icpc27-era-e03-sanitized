@@ -1,0 +1,4 @@
+cohort,pairs,twins,functions,lost_twins,original_side_supported,mutated_side_refuted,mutated_side_supported,original_side_refuted,nominal_refutation_sensitivity,nominal_false_positive_rate
+all_frozen_nominal,151,302,52,26,90,44,33,3,0.2913907284768212,0.019867549668874173
+without_known_label_errors,148,296,52,26,88,43,31,2,0.2905405405405405,0.013513513513513514
+selected_original_supported,116,232,48,24,84,42,28,2,0.3620689655172414,0.017241379310344827

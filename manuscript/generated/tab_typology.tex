@@ -1,0 +1,17 @@
+\begin{table}[t]
+\centering
+\caption{SDBPR claim types after re-typing, their evidence kind, and \attest{} outcomes for the local explainers' claims (SS slot-supported, CR candidate refutation, C consistent, Unv unverifiable, Und undischargeable).}
+\label{tab:typology}
+\footnotesize\setlength{\tabcolsep}{2.4pt}
+\begin{tabular}{@{}llrrrrrr@{}}
+\toprule
+Type & Evidence & Claims (\%) & SS & CR & C & Unv & Und \\
+\midrule
+Structural & tree-sitter facts & 252 (31) & 196 & 0 & 33 & 23 & 0 \\
+Data-flow & reaching defs (may) & 184 (22) & 111 & 1 & 5 & 67 & 0 \\
+Behavioural & blind probe & 199 (24) & 1 & 0 & 14 & 184 & 0 \\
+Purpose & probe / class facts & 119 (14) & 7 & 0 & 22 & 90 & 0 \\
+Rationale & outside $E$ & 68 (8) & 0 & 0 & 0 & 0 & 68 \\
+\bottomrule
+\end{tabular}
+\end{table}

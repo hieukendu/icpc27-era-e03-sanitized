@@ -1,0 +1,41 @@
+cid,decision,note
+coder14b:A028:02,asserts_more,sentence asserts more than the checked param slot
+coder14b:A050:05,pure,the import line itself
+coder14b:A053:02,asserts_more,sentence asserts more than the checked param slot
+coder14b:A054:00,pure,'is a context manager' = the decorator
+coder14b:A054:04,pure,default value only
+coder14b:A102:02,asserts_more,sentence asserts more than the checked calls-exact slot
+coder14b:A127:03,asserts_more,sentence asserts more than the checked param slot
+coder14b:A128:04,asserts_more,sentence asserts more than the checked flow-data slot
+coder14b:A150:01,asserts_more,sentence asserts more than the checked param slot
+coder14b:A150:05,asserts_more,sentence asserts more than the checked calls-exact slot
+coder14b:A150:07,asserts_more,sentence asserts more than the checked calls-exact slot
+coder14b:B000:03,asserts_more,sentence asserts more than the checked calls-exact slot
+coder14b:B002:02,asserts_more,sentence asserts more than the checked flow-data slot
+coder14b:B003:04,asserts_more,sentence asserts more than the checked flow-data slot
+coder14b:B005:01,asserts_more,sentence asserts more than the checked param slot
+coder14b:B005:08,asserts_more,sentence asserts more than the checked flow-data slot
+coder14b:B040:02,asserts_more,sentence asserts more than the checked flow-data slot
+coder14b:B047:10,asserts_more,sentence asserts more than the checked calls-exact slot
+coder14b:B049:00,asserts_more,sentence asserts more than the checked param slot
+general14b:A001:03,asserts_more,sentence asserts more than the checked param slot
+general14b:A002:00,pure,'is a context manager' = the decorator
+general14b:A025:02,asserts_more,sentence asserts more than the checked flow-data slot
+general14b:A028:02,asserts_more,sentence asserts more than the checked param slot
+general14b:A029:06,asserts_more,sentence asserts more than the checked flow-data slot
+general14b:A053:05,asserts_more,sentence asserts more than the checked calls-exact slot
+general14b:A053:06,asserts_more,sentence asserts more than the checked calls-exact slot
+general14b:A079:04,asserts_more,sentence asserts more than the checked calls-exact slot
+general14b:A103:02,asserts_more,sentence asserts more than the checked calls-exact slot
+general14b:A126:02,asserts_more,sentence asserts more than the checked param slot
+general14b:A127:00,pure,pure membership
+general14b:A127:04,asserts_more,sentence asserts more than the checked flow-data slot
+general14b:A128:03,asserts_more,sentence asserts more than the checked flow-data slot
+general14b:A150:02,asserts_more,sentence asserts more than the checked param slot
+general14b:B001:02,asserts_more,sentence asserts more than the checked calls-exact slot
+general14b:B002:00,asserts_more,sentence asserts more than the checked param slot
+general14b:B003:02,asserts_more,sentence asserts more than the checked flow-data slot
+general14b:B004:00,asserts_more,sentence asserts more than the checked param slot
+general14b:B009:01,slot_unrelated,slot `n` does not occur in the sentence (about fac/ans initialisation)
+general14b:B009:04,asserts_more,sentence asserts more than the checked flow-data slot
+general14b:B045:04,pure,'gap is set to the length of the list' = the flow

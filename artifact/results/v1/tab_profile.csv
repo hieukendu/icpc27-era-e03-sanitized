@@ -1,0 +1,4 @@
+cond,label,n_expl,n_claims,share_structural,share_dataflow,share_behavioural,share_intent,applicable,applicable_lo,applicable_hi,discharged,discharged_lo,discharged_hi,true,false,false_lo,false_hi,undischargeable,unverifiable,false_rate_discharged,false_rate_discharged_lo,false_rate_discharged_hi,intent_in_residue
+coder14b,Qwen2.5-Coder-14B,60,423,0.3239,0.1891,0.2388,0.2482,0.7518,0.7113,0.7898,0.5508,0.4724,0.6231,0.5059,0.0449,0.024,0.0687,0.2482,0.2009,0.0815,0.0471,0.1226,0.5526
+general14b,Qwen2.5-14B,60,399,0.2882,0.2607,0.2456,0.2055,0.7945,0.7494,0.8329,0.5539,0.4901,0.616,0.5163,0.0376,0.0195,0.0594,0.2055,0.2406,0.0679,0.034,0.1055,0.4607
+frontier,Claude Haiku 5.5,36,331,0.2749,0.2085,0.2387,0.2779,0.7221,0.6646,0.7764,0.4834,0.407,0.5563,0.4199,0.0634,0.0334,0.0968,0.2779,0.2387,0.1313,0.0733,0.2,0.538

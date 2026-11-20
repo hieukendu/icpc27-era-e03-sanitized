@@ -1,0 +1,15 @@
+**/__pycache__/
+*.pyc
+.DS_Store
+.venv/
+artifact/build/
+artifact/build_pdf/
+artifact/data/repos/
+manuscript/figures/icons/
+manuscript/figures/fig1.tex
+archive/
+others/
+release/
+*.md
+!README.md
+!artifact/**/*.md

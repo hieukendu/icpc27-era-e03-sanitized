@@ -1,0 +1,42 @@
+\documentclass[10pt,conference]{IEEEtran}
+\IEEEoverridecommandlockouts
+\usepackage[T1]{fontenc}
+\usepackage{cite}
+\usepackage{amsmath,amssymb}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{xcolor}
+\usepackage{url}
+\usepackage{balance}
+\usepackage{pgfplots}
+% Shipped with compat=1.18 (current pgfplots). The local build machine has TeX Live 2020 (pgfplots 1.17),
+% where 1.18 is fatal; `make pdf` in ../artifact seds this to 1.17 in a build copy.
+\pgfplotsset{compat=1.18}
+\usetikzlibrary{shapes.callouts,arrows.meta}
+\usepackage[ruled,linesnumbered,noend]{algorithm2e}
+\SetAlFnt{\footnotesize}
+\input{generated/macros.tex}
+\input{generated/revision_macros.tex}
+\input{generated/release_link.tex}
+\newcommand{\attest}{\textsc{Attest}}
+\newcommand{\sdbi}{SDBI}
+
+\begin{document}
+\title{What Evidence Supports an AI Code Explanation?}
+\author{\IEEEauthorblockN{Anonymous Author(s)}}
+\maketitle
+
+\input{sections/00-abstract}
+\input{sections/01-introduction}
+\input{sections/03-approach}
+\input{sections/04-preliminary-evaluation}
+\input{sections/05-discussion-and-agenda}
+\input{sections/02-background-and-related-work}
+\input{sections/06-conclusion}
+
+\clearpage
+\nobalance
+\bibliographystyle{IEEEtran}
+\bibliography{references}
+\end{document}

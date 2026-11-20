@@ -1,0 +1,6 @@
+type,n,share,true,false,consistent,unverifiable,undischargeable,decided_share
+structural,252,0.3066,195,14,29,14,0,0.8294
+dataflow,184,0.2238,111,1,5,67,0,0.6087
+behavioural,199,0.2421,1,0,17,181,0,0.005
+purpose,119,0.1448,7,0,22,90,0,0.0588
+rationale,68,0.0827,0,0,0,0,68,0.0

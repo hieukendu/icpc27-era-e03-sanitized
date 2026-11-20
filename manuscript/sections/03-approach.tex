@@ -1,0 +1,26 @@
+\section{Evidence Kinds and the Slot-Support Contract}\label{sec:approach}
+Our checker extracts a target, finds evidence and reports the match alongside the original sentence. In Fig.~\ref{fig:example}, matching the \texttt{getattr} slot supports the call's occurrence, while retaining the sentence exposes its unchecked condition and behaviour.
+
+\noindent\textbf{Evidence kinds.} What we can check depends on the claim. Structural (S) claims name code elements such as calls, while Data-flow claims describe how values reach other program points. Behavioural (B) claims describe input and output behaviour. Purpose claims concern functionality or class membership, whereas Rationale (R) claims concern design reasons or qualities such as efficiency. A second classifier separates purpose from rationale within the extractor's initial \emph{Intent} category. Figure~\ref{fig:example} uses initials for the illustrated claim kinds.
+
+For data-flow claims, we trace possible value transfers without running the program. A \emph{may-path} says that a source could influence a destination under the analysis. It neither guarantees an executable path nor describes every execution. For behavioural claims, we use a \emph{probe}, a small executable test of a stated input and expected output. A hypothetical passing test of \texttt{read1(4)}, for example, provides evidence for that particular input. To screen probes, we check the claim's condition for applicability and require the test to reject a \emph{mutant}, a deliberately altered version of the code.
+
+\begin{table}[t]
+\centering\caption{The scope contract: read each row as the checked target and evidence (left), followed by what remains unassessed (right).}
+\label{tab:contract}\footnotesize\setlength{\tabcolsep}{4pt}\renewcommand{\arraystretch}{1.05}
+\begin{tabular}{@{}>{\raggedright\arraybackslash}p{.575\columnwidth}>{\raggedright\arraybackslash}p{.39\columnwidth}@{}}\toprule
+\textbf{Kind: target and evidence} & \textbf{Not assessed} \\\midrule
+\textbf{Structural}: syntax fact, e.g., a named call or parameter in parsed code & Conditions, whether a call runs, runtime target \\\addlinespace[2pt]
+\textbf{Data-flow}: possible value-flow path between identified endpoints, respecting statement order & Executable paths, full shared-object effects, dependency on every run \\\addlinespace[2pt]
+\textbf{Behavioural}: stated input/output test, condition check, rejected code mutant & Other inputs, truth of the full sentence \\\addlinespace[2pt]
+\textbf{Purpose}: membership fact about the named subject, else a scoped test & Additional functionality or purpose \\\addlinespace[2pt]
+\textbf{Rationale}: no evidence source in this implementation & Design reasons, which may need design records \\\bottomrule
+\end{tabular}\end{table}
+
+Table~\ref{tab:contract} sets out these boundaries: a call match leaves its execution condition unresolved, and a validated test covers limited inputs. Purpose admits narrow checks such as class membership. Rationale requires sources beyond our implementation, potentially including design records.
+
+\noindent\textbf{Outcomes and coverage.} We report \emph{slot-supported} when the extracted target matches a fact, may-path or stated probe result within this contract. A potential rule contradiction produces a \emph{candidate refutation}, requiring semantic confirmation. Sentence truth requires a separate assessment. We use \emph{consistent} for weaker compatibility, such as control over an operation without supplying its data. Excluded execution, unsupported cases and failed probe validation receive \emph{not checked}, while \emph{outside scope} marks rationale without a corresponding evidence source.
+
+For explanation $E$, let $C(E)$ be its extracted claims and $D(E)$ the subset receiving slot support or candidate refutation. We define the \emph{outcome share} as $\gamma=|D(E)|/|C(E)|$, where bars count claims. Two such outcomes among five claims give $\gamma=2/5$, the fraction of claims receiving either outcome. Our records retain text, slots, evidence and unassessed content, marking extractor paraphrases.
+
+\noindent\textbf{Implementation.} Our implementation uses tree-sitter, a code parser~\cite{treesitter}, and reaching-definitions analysis, which tracks the assignments that may supply a later use. We generate probes from the signature and claim, with the function body withheld. We parse repository code without execution and run tests on the benchmark below. Known implementation limits include runtime method selection and multiple names for shared objects. Our artifact links full rules and \SuiteLim{} limitation cases in \texttt{semantic-contract.md}. Replay uses cached observations.

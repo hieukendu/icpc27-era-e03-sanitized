@@ -1,0 +1,35 @@
+id,decision,note
+coder14b:A027:03,fact_gap_splat,true sentence: requests accepts `json` through **kwargs; v3 rule ignored the splat
+coder14b:A028:03,fact_gap_splat,true sentence: `json` accepted through **kwargs
+coder14b:A053:04,fact_gap_splat,"true sentence: kwargs.pop('tqdm_class', tqdm_auto)"
+coder14b:A054:00,fact_bug,true sentence: @contextmanager not read (decorator on decorated_definition)
+coder14b:A077:02,correct_refutation,"repeat(1) is passed to compress, not zipped with the input"
+coder14b:A101:04,mis_slot,"'inherits from tuple' slotted as a call; type(name, (tuple,), body) makes it true"
+coder14b:A127:06,fact_bug,true sentence: _insert called through the bound-method alias self_insert
+coder14b:A129:00,fact_bug,true sentence: @classmethod not read
+coder14b:A129:02,mis_slot,local tuple `key` slotted as a parameter
+coder14b:B004:00,mis_slot,'takes a list of strings' slotted as a default
+frontier:A001:01,mis_slot,type annotation slotted as a default value
+frontier:A001:02,mis_slot,type annotation slotted as a default value
+frontier:A001:03,mis_slot,type annotation slotted as a default value
+frontier:A001:04,mis_slot,type annotation slotted as a default value
+frontier:A002:00,fact_bug,true sentence: @contextlib.contextmanager not read
+frontier:A025:08,fact_bug,true sentence: typed **proxy_kwargs dropped from params
+frontier:A027:03,fact_bug,true sentence: typed **kwargs dropped from params
+frontier:A101:05,mis_slot,the nested getter's default argument `i=i` slotted as a parameter of the function
+frontier:A125:01,mis_slot,'acquires self._lock' (with statement) slotted as a call to acquire
+frontier:A125:04,mis_slot,attribute `self.on_miss` slotted as a parameter
+frontier:A126:01,mis_slot,assignment to sys.excepthook slotted as a call
+frontier:A151:02,mis_slot,'for-loop' slotted as a callee
+general14b:A002:00,fact_bug,true sentence: @contextlib.contextmanager not read
+general14b:A028:03,fact_gap_splat,true sentence: `json` accepted through **kwargs
+general14b:A053:04,fact_gap_splat,true sentence: tqdm_class taken from kwargs with default tqdm_auto
+general14b:A125:01,mis_slot,'acquires a lock' (with statement) slotted as a call to _lock
+general14b:A129:00,fact_bug,true sentence: @classmethod not read
+planted:20,correct_refutation,planted TRUE twin (A077) re-extracted as repeat->zip flow; the sentence is false of the code (its true label was inherited from a calls slot)
+planted:19,mis_slot,planted TRUE twin (A128): sink re-slotted as trace_str
+planted:58,mis_slot,planted TRUE twin (A150): parameter re-slotted as `constructor`
+planted:56,engine_bug_fixed_v5,planted TRUE twin (A171): Java default branch returned FALSE before the defaults guards; fixed in v5
+second_v4:coder14b:A104:05,true_sentence,"v4 second-extraction FALSE: `if eq is None: eq = default_eq` makes the None-sentinel default sentence true"
+second_v4:coder14b:B004:03,true_sentence,"v4 second-extraction FALSE: 'returns None' slotted as returns-nothing; the sentence is true"
+second_v4:coder14b:A100:02,true_sentence,"v4 second-extraction FALSE: the operator `in` slotted as a callee; the sentence is true"

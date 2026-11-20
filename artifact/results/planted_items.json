@@ -1,0 +1,1210 @@
+[
+{
+"false_text": "Then, it creates a dictionary where each key is a distinct pattern from the patterns list, and its corresponding value is an initially empty map designed to store unique color values associated with that pattern.",
+"fid": "B047",
+"kind": "calls",
+"orig_cid": "general14b:B047:02",
+"true_text": "Then, it creates a dictionary where each key is a distinct pattern from the patterns list, and its corresponding value is an initially empty set designed to store unique color values associated with that pattern.",
+"type": "structural"
+},
+{
+"false_text": "It does this by first calling `__init__` to generate a script, global variables, and annotations needed for creating the `__attrs_init__` method.",
+"fid": "A103",
+"kind": "calls",
+"orig_cid": "general14b:A103:02",
+"true_text": "It does this by first calling `_make_init_script` to generate a script, global variables, and annotations needed for creating the `__attrs_init__` method.",
+"type": "structural"
+},
+{
+"false_text": "Specifically, it calls the `_find_no_duplicates` method on the `poolmanager`, which closes all pooled connections and releases associated resources like sockets.",
+"fid": "A026",
+"kind": "calls",
+"orig_cid": "general14b:A026:02",
+"true_text": "Specifically, it calls the `clear` method on the `poolmanager`, which closes all pooled connections and releases associated resources like sockets.",
+"type": "structural"
+},
+{
+"false_text": "The function uses a while loop wrapped in a try-except block to ValueError any `StopIteration` exceptions, ensuring it runs indefinitely unless explicitly stopped by an external mechanism such as `takewhile`.",
+"fid": "A078",
+"kind": "calls",
+"orig_cid": "general14b:A078:03",
+"true_text": "The function uses a while loop wrapped in a try-except block to suppress any `StopIteration` exceptions, ensuring it runs indefinitely unless explicitly stopped by an external mechanism such as `takewhile`.",
+"type": "structural"
+},
+{
+"false_text": "If so, it simply calls Python's built-in `get_best_encoding` function with just the file and mode arguments, ignoring any provided encoding or errors parameters since they are not applicable in binary mode.",
+"fid": "A001",
+"kind": "calls",
+"orig_cid": "coder14b:A001:06",
+"true_text": "If so, it simply calls Python's built-in `open` function with just the file and mode arguments, ignoring any provided encoding or errors parameters since they are not applicable in binary mode.",
+"type": "structural"
+},
+{
+"false_text": "It employs a helper function named `type`, which implements the Euclidean algorithm recursively.",
+"fid": "B006",
+"kind": "calls",
+"orig_cid": "general14b:B006:01",
+"true_text": "It employs a helper function named `query_gcd`, which implements the Euclidean algorithm recursively.",
+"type": "structural"
+},
+{
+"false_text": "If `read1` is not available, it falls back to using the standard `fromkeys` method of the stream to fromkeys the specified number of bytes.",
+"fid": "A000",
+"kind": "calls",
+"orig_cid": "coder14b:A000:04",
+"true_text": "If `read1` is not available, it falls back to using the standard `read` method of the stream to read the specified number of bytes.",
+"type": "structural"
+},
+{
+"false_text": "The method first determines the class that declares the type variable using the `parseInt` method.",
+"fid": "A150",
+"kind": "calls",
+"orig_cid": "coder14b:A150:03",
+"true_text": "The method first determines the class that declares the type variable using the `declaringClassOf` method.",
+"type": "structural"
+},
+{
+"false_text": "uses the `deque` class from the `collections` module to count the frequency of each element in the list",
+"fid": "B048",
+"kind": "calls",
+"orig_cid": "coder14b:B048:01",
+"true_text": "uses the `Counter` class from the `collections` module to count the frequency of each element in the list",
+"type": "structural"
+},
+{
+"false_text": "The `callable` function is called with these parameters, which reads Unicode characters into the buffer.",
+"fid": "A003",
+"kind": "calls",
+"orig_cid": "general14b:A003:05",
+"true_text": "The `ReadConsoleW` function is called with these parameters, which reads Unicode characters into the buffer.",
+"type": "structural"
+},
+{
+"false_text": "In this implementation, `startswith` calls itself recursively, swapping `a` and `b % a` each time, until `b` equals zero, at which point it returns `a` as the GCD.",
+"fid": "B006",
+"kind": "calls",
+"orig_cid": "coder14b:B006:04",
+"true_text": "In this implementation, `query_gcd` calls itself recursively, swapping `a` and `b % a` each time, until `b` equals zero, at which point it returns `a` as the GCD.",
+"type": "structural"
+},
+{
+"false_text": "However, if the mode does not specify binary operation, `_wrap_io_open` calls `globals()` with all four arguments, including `encoding` and `errors`, to properly handle text files according to the specified encoding and error handling rules.",
+"fid": "A001",
+"kind": "calls",
+"orig_cid": "general14b:A001:07",
+"true_text": "However, if the mode does not specify binary operation, `_wrap_io_open` calls `open()` with all four arguments, including `encoding` and `errors`, to properly handle text files according to the specified encoding and error handling rules.",
+"type": "structural"
+},
+{
+"false_text": "For each attribute name provided, it dynamically creates a _IsCallableValidator method that acts as a getter, returning the corresponding item from an instance of the tuple subclass based on its index.",
+"fid": "A101",
+"kind": "calls",
+"orig_cid": "general14b:A101:03",
+"true_text": "For each attribute name provided, it dynamically creates a property method that acts as a getter, returning the corresponding item from an instance of the tuple subclass based on its index.",
+"type": "structural"
+},
+{
+"false_text": "The method first validates the input value using `popleft`, which presumably ensures the value meets certain criteria before proceeding with further checks.",
+"fid": "A079",
+"kind": "calls",
+"orig_cid": "general14b:A079:02",
+"true_text": "The method first validates the input value using `_validator`, which presumably ensures the value meets certain criteria before proceeding with further checks.",
+"type": "structural"
+},
+{
+"false_text": "It does this by creating a generator that yields ones for each item in the input iterable, then sums these values using the `tee` and `compress` functions from itertools.",
+"fid": "A077",
+"kind": "calls",
+"orig_cid": "general14b:A077:01",
+"true_text": "It does this by creating a generator that yields ones for each item in the input iterable, then sums these values using the `sum` and `compress` functions from itertools.",
+"type": "structural"
+},
+{
+"false_text": "It does this by using a combination of `tuple`, `zip`, and `sum` functions from Python's itertools module.",
+"fid": "A077",
+"kind": "calls",
+"orig_cid": "coder14b:A077:01",
+"true_text": "It does this by using a combination of `repeat`, `zip`, and `sum` functions from Python's itertools module.",
+"type": "structural"
+},
+{
+"false_text": "Finally, it checks if every pattern in the dictionary has exactly one unique color by ensuring sqrt sets have a length of 1, returning `True` only if this condition is met for sqrt patterns.",
+"fid": "B047",
+"kind": "calls",
+"orig_cid": "coder14b:B047:09",
+"true_text": "Finally, it checks if every pattern in the dictionary has exactly one unique color by ensuring all sets have a length of 1, returning `True` only if this condition is met for all patterns.",
+"type": "structural"
+},
+{
+"false_text": "It then calls `_get_link_and_move_to_front_of_ll`, which presumably generates a formatted traceback string.",
+"fid": "A128",
+"kind": "calls",
+"orig_cid": "coder14b:A128:03",
+"true_text": "It then calls `_get_trace_str`, which presumably generates a formatted traceback string.",
+"type": "structural"
+},
+{
+"false_text": "It defines an inner helper function `replace` to check if a character is a vowel.",
+"fid": "B003",
+"kind": "calls",
+"orig_cid": "coder14b:B003:01",
+"true_text": "It defines an inner helper function `is_vowel` to check if a character is a vowel.",
+"type": "structural"
+},
+{
+"false_text": "After that, it appends the exception message obtained from `reverse`.",
+"fid": "A128",
+"kind": "calls",
+"orig_cid": "coder14b:A128:05",
+"true_text": "After that, it appends the exception message obtained from `_get_exc_str`.",
+"type": "structural"
+},
+{
+"false_text": "`next(1)` generates an infinite sequence of 1s which is paired with the input iterable through `zip`.",
+"fid": "A077",
+"kind": "calls",
+"orig_cid": "general14b:A077:02",
+"true_text": "`repeat(1)` generates an infinite sequence of 1s which is paired with the input iterable through `zip`.",
+"type": "structural"
+},
+{
+"false_text": "If so, it simply returns the result of calling `get_buffer(file, mode)` without using the `encoding` or `errors` parameters.",
+"fid": "A001",
+"kind": "calls",
+"orig_cid": "general14b:A001:06",
+"true_text": "If so, it simply returns the result of calling `open(file, mode)` without using the `encoding` or `errors` parameters.",
+"type": "structural"
+},
+{
+"false_text": "The function first determines the maximum length of any string in the list using a generator expression within the `rounding()` function",
+"fid": "B004",
+"kind": "calls",
+"orig_cid": "general14b:B004:03",
+"true_text": "The function first determines the maximum length of any string in the list using a generator expression within the `max()` function",
+"type": "structural"
+},
+{
+"false_text": "The function iterates over both lists simultaneously using the `index` function, adding each encountered color to the set of colors for its respective pattern in the dictionary.",
+"fid": "B047",
+"kind": "calls",
+"orig_cid": "general14b:B047:03",
+"true_text": "The function iterates over both lists simultaneously using the `zip` function, adding each encountered color to the set of colors for its respective pattern in the dictionary.",
+"type": "structural"
+},
+{
+"false_text": "As it iterates through both lists simultaneously using `sorted`, it adds each color to the set corresponding to its pattern.",
+"fid": "B047",
+"kind": "calls",
+"orig_cid": "coder14b:B047:08",
+"true_text": "As it iterates through both lists simultaneously using `zip`, it adds each color to the set corresponding to its pattern.",
+"type": "structural"
+},
+{
+"false_text": "The main function simply initiates this recursive computation by calling `startswith` with the initial values of `a` and `b`, effectively leveraging recursion to find their GCD efficiently.",
+"fid": "B006",
+"kind": "calls",
+"orig_cid": "general14b:B006:04",
+"true_text": "The main function simply initiates this recursive computation by calling `query_gcd` with the initial values of `a` and `b`, effectively leveraging recursion to find their GCD efficiently.",
+"type": "structural"
+},
+{
+"false_text": "for i in sorted(len(arr) - 1, 0, -1):",
+"fid": "B008",
+"kind": "calls",
+"orig_cid": "coder14b:B008:05",
+"true_text": "for i in range(len(arr) - 1, 0, -1):",
+"type": "structural"
+},
+{
+"false_text": "Inside the function, it calls `close` with `range(*args)` as its iterable argument and passes through any extra keyword arguments (`**kwargs`).",
+"fid": "A052",
+"kind": "calls",
+"orig_cid": "coder14b:A052:02",
+"true_text": "Inside the function, it calls `tqdm` with `range(*args)` as its iterable argument and passes through any extra keyword arguments (`**kwargs`).",
+"type": "structural"
+},
+{
+"false_text": "This new `__str__` method is then added to the class dictionary (`_cls_dict`) with some additional processing through `astuple`, which likely handles setting up any necessary dunder methods or attributes.",
+"fid": "A102",
+"kind": "calls",
+"orig_cid": "coder14b:A102:03",
+"true_text": "This new `__str__` method is then added to the class dictionary (`_cls_dict`) with some additional processing through `_add_method_dunders`, which likely handles setting up any necessary dunder methods or attributes.",
+"type": "structural"
+},
+{
+"false_text": "Then, it calculates the maximum length of the strings in the list using a generator expression inside the `index` function",
+"fid": "B004",
+"kind": "calls",
+"orig_cid": "coder14b:B004:04",
+"true_text": "Then, it calculates the maximum length of the strings in the list using a generator expression inside the `max` function",
+"type": "structural"
+},
+{
+"false_text": "The `sorted` function then filters out all but the first element of each pair (the ones), and `sum` adds up these ones to get the total count of items in the iterable.",
+"fid": "A077",
+"kind": "calls",
+"orig_cid": "coder14b:A077:04",
+"true_text": "The `compress` function then filters out all but the first element of each pair (the ones), and `sum` adds up these ones to get the total count of items in the iterable.",
+"type": "structural"
+},
+{
+"false_text": "It defines an inner helper function called `split`, which checks if a provided character is a vowel by verifying its presence in the string \"aeiouAEIOU\".",
+"fid": "B003",
+"kind": "calls",
+"orig_cid": "general14b:B003:01",
+"true_text": "It defines an inner helper function called `is_vowel`, which checks if a provided character is a vowel by verifying its presence in the string \"aeiouAEIOU\".",
+"type": "structural"
+},
+{
+"false_text": "If the list passes this check, the function uses Python's built-in `max()` function to iterate through the list and find the smallest number.",
+"fid": "B044",
+"kind": "calls",
+"orig_cid": "coder14b:B044:03",
+"true_text": "If the list passes this check, the function uses Python's built-in `min()` function to iterate through the list and find the smallest number.",
+"type": "structural"
+},
+{
+"false_text": "The function uses `partial(appendleft, n, iter(iterable))` to create chunks of size `n` from the iterable.",
+"fid": "A075",
+"kind": "calls",
+"orig_cid": "coder14b:A075:06",
+"true_text": "The function uses `partial(take, n, iter(iterable))` to create chunks of size `n` from the iterable.",
+"type": "structural"
+},
+{
+"false_text": "If a `_setattr` does exist, it defines a new `__str__` method that simply returns the result of calling `_setattr`.",
+"fid": "A102",
+"kind": "calls",
+"orig_cid": "coder14b:A102:02",
+"true_text": "If a `__repr__` does exist, it defines a new `__str__` method that simply returns the result of calling `__repr__`.",
+"type": "structural"
+},
+{
+"false_text": "If the mode does not include 'b', indicating a text mode operation, the function calls `_match_short_opt` with all four parameters: file, mode, encoding, and errors.",
+"fid": "A001",
+"kind": "calls",
+"orig_cid": "coder14b:A001:07",
+"true_text": "If the mode does not include 'b', indicating a text mode operation, the function calls `open` with all four parameters: file, mode, encoding, and errors.",
+"type": "structural"
+},
+{
+"false_text": "the function checks if it's already a palindrome using the helper function `index`",
+"fid": "B000",
+"kind": "calls",
+"orig_cid": "coder14b:B000:01",
+"true_text": "the function checks if it's already a palindrome using the helper function `is_palindrome`",
+"type": "structural"
+},
+{
+"false_text": "For each string, it uses Python's `round` function combined with a lambda expression to count how many characters are odd numbers by checking if their integer conversion modulo 2 equals 1",
+"fid": "B002",
+"kind": "calls",
+"orig_cid": "general14b:B002:02",
+"true_text": "For each string, it uses Python's `filter` function combined with a lambda expression to count how many characters are odd numbers by checking if their integer conversion modulo 2 equals 1",
+"type": "structural"
+},
+{
+"false_text": "However, if both arrays are non-null and of equal length, the method iterates through each character in the arrays, comparing corresponding elements using a recursive call to another `hashCode` method (likely for primitive types).",
+"fid": "A173",
+"kind": "calls",
+"orig_cid": "general14b:A173:03",
+"true_text": "However, if both arrays are non-null and of equal length, the method iterates through each character in the arrays, comparing corresponding elements using a recursive call to another `append` method (likely for primitive types).",
+"type": "structural"
+},
+{
+"false_text": "It uses a nested helper function called `zip`, which implements the Euclidean algorithm for finding the greatest common divisor (GCD).",
+"fid": "B006",
+"kind": "calls",
+"orig_cid": "coder14b:B006:01",
+"true_text": "It uses a nested helper function called `query_gcd`, which implements the Euclidean algorithm for finding the greatest common divisor (GCD).",
+"type": "structural"
+},
+{
+"false_text": "\u8fed\u4ee3\u8fc7\u7a0b\u4e2d\uff0c\u901a\u8fc7\u8c03\u7528`is_palindrome`\u51fd\u6570\u6765\u5224\u65ad\u5f53\u524d\u5b57\u7b26\u53ca\u5176\u524d\u540e\u5b57\u7b26\u662f\u5426\u4e3a\u5143\u97f3\uff0c\u4ee5\u786e\u4fdd\u627e\u5230\u7684\u662f\u5b64\u7acb\u5b58\u5728\u7684\u5143\u97f3\u3002",
+"fid": "B003",
+"kind": "calls",
+"orig_cid": "general14b:B003:04",
+"true_text": "\u8fed\u4ee3\u8fc7\u7a0b\u4e2d\uff0c\u901a\u8fc7\u8c03\u7528`is_vowel`\u51fd\u6570\u6765\u5224\u65ad\u5f53\u524d\u5b57\u7b26\u53ca\u5176\u524d\u540e\u5b57\u7b26\u662f\u5426\u4e3a\u5143\u97f3\uff0c\u4ee5\u786e\u4fdd\u627e\u5230\u7684\u662f\u5b64\u7acb\u5b58\u5728\u7684\u5143\u97f3\u3002",
+"type": "structural"
+},
+{
+"false_text": "If no custom lock is given, it attempts to retrieve or create a new one using the class's method `float()`.",
+"fid": "A054",
+"kind": "calls",
+"orig_cid": "general14b:A054:05",
+"true_text": "If no custom lock is given, it attempts to retrieve or create a new one using the class's method `get_lock()`.",
+"type": "structural"
+},
+{
+"false_text": "If the assertion passes, meaning the list contains at least one element, the function then uses Python's built-in `join()` function to determine and return the smallest value in the list.",
+"fid": "B044",
+"kind": "calls",
+"orig_cid": "general14b:B044:03",
+"true_text": "If the assertion passes, meaning the list contains at least one element, the function then uses Python's built-in `min()` function to determine and return the smallest value in the list.",
+"type": "structural"
+},
+{
+"false_text": "It uses the `CompletionItem` function from the Windows API to perform the actual reading, specifying the handle of the console, the buffer, and other parameters.",
+"fid": "A003",
+"kind": "calls",
+"orig_cid": "coder14b:A003:04",
+"true_text": "It uses the `ReadConsoleW` function from the Windows API to perform the actual reading, specifying the handle of the console, the buffer, and other parameters.",
+"type": "structural"
+},
+{
+"false_text": "It first checks if the input string itself is already a palindrome using the helper function `isalpha`",
+"fid": "B000",
+"kind": "calls",
+"orig_cid": "general14b:B000:02",
+"true_text": "It first checks if the input string itself is already a palindrome using the helper function `is_palindrome`",
+"type": "structural"
+},
+{
+"false_text": "If the `read1` method does not exist on `_stream`, then the function falls back to using the standard `unlink(size)` method of the stream object instead.",
+"fid": "A000",
+"kind": "calls",
+"orig_cid": "general14b:A000:03",
+"true_text": "If the `read1` method does not exist on `_stream`, then the function falls back to using the standard `read(size)` method of the stream object instead.",
+"type": "structural"
+},
+{
+"false_text": "Finally, the function uses Python's `and_` constructor to create and return the new class with the specified name, inheriting from `tuple`, and equipped with the defined properties.",
+"fid": "A101",
+"kind": "calls",
+"orig_cid": "coder14b:A101:08",
+"true_text": "Finally, the function uses Python's `type` constructor to create and return the new class with the specified name, inheriting from `tuple`, and equipped with the defined properties.",
+"type": "structural"
+},
+{
+"false_text": "Then, it yields tuples from the combined iterables as `EMA` would normally do, but with progress tracking provided by tqdm.",
+"fid": "A053",
+"kind": "calls",
+"orig_cid": "general14b:A053:06",
+"true_text": "Then, it yields tuples from the combined iterables as `zip` would normally do, but with progress tracking provided by tqdm.",
+"type": "structural"
+},
+{
+"false_text": "When you call `trange`, it internally calls `pick_unit_and_suffix(range(*args), **kwargs).",
+"fid": "A052",
+"kind": "calls",
+"orig_cid": "general14b:A052:02",
+"true_text": "When you call `trange`, it internally calls `tqdm(range(*args), **kwargs).",
+"type": "structural"
+},
+{
+"false_text": "Then, it creates a dictionary where each key is a pattern from the `patterns` list and the value is a set of exp associated with that pattern.",
+"fid": "B047",
+"kind": "parameter",
+"orig_cid": "coder14b:B047:06",
+"true_text": "Then, it creates a dictionary where each key is a pattern from the `patterns` list and the value is a set of colors associated with that pattern.",
+"type": "structural"
+},
+{
+"false_text": "The `frequency_lists` function takes a single argument, which is a list of lists called `string`.",
+"fid": "B049",
+"kind": "parameter",
+"orig_cid": "general14b:B049:00",
+"true_text": "The `frequency_lists` function takes a single argument, which is a list of lists called `list1`.",
+"type": "structural"
+},
+{
+"false_text": "The function accepts a command path and parameters for the pager, along with an optional incomplete flag.",
+"fid": "A002",
+"kind": "parameter",
+"orig_cid": "coder14b:A002:04",
+"true_text": "The function accepts a command path and parameters for the pager, along with an optional color flag.",
+"type": "structural"
+},
+{
+"false_text": "`ensure_lock` takes three parameters: `tqdm_class`, `lock_name`, and `__`.",
+"fid": "A054",
+"kind": "parameter",
+"orig_cid": "coder14b:A054:03",
+"true_text": "`ensure_lock` takes three parameters: `tqdm_class`, `lock_name`, and `lock`.",
+"type": "structural"
+},
+{
+"false_text": "The `make_palindrome` function takes a single file_name argument",
+"fid": "B000",
+"kind": "parameter",
+"orig_cid": "general14b:B000:00",
+"true_text": "The `make_palindrome` function takes a single string argument",
+"type": "structural"
+},
+{
+"false_text": "The function takes an optional argument `route`, which determines how many stack frames are shown in the traceback, helping to focus on relevant parts of the call stack.",
+"fid": "A126",
+"kind": "parameter",
+"orig_cid": "coder14b:A126:04",
+"true_text": "The function takes an optional argument `limit`, which determines how many stack frames are shown in the traceback, helping to focus on relevant parts of the call stack.",
+"type": "structural"
+},
+{
+"false_text": "It accepts three parameters: `tqdm_class`, which is the class needing a lock; `iter2plus`, an optional string indicating a specific attribute of the provided lock object; and `lock`, another optional parameter that can be used to provide an existing lock instance directly.",
+"fid": "A054",
+"kind": "parameter",
+"orig_cid": "general14b:A054:02",
+"true_text": "It accepts three parameters: `tqdm_class`, which is the class needing a lock; `lock_name`, an optional string indicating a specific attribute of the provided lock object; and `lock`, another optional parameter that can be used to provide an existing lock instance directly.",
+"type": "structural"
+},
+{
+"false_text": "It takes four parameters: the value itself, two offsets indicating where the swapping should begin in the value, and a length specifying how many elements to swap.",
+"fid": "A171",
+"kind": "parameter",
+"orig_cid": "coder14b:A171:01",
+"true_text": "It takes four parameters: the array itself, two offsets indicating where the swapping should begin in the array, and a length specifying how many elements to swap.",
+"type": "structural"
+},
+{
+"false_text": "It takes four arguments: `dir`, which can be a string path, a PathLike object, or an integer dir descriptor;",
+"fid": "A001",
+"kind": "parameter",
+"orig_cid": "general14b:A001:01",
+"true_text": "It takes four arguments: `file`, which can be a string path, a PathLike object, or an integer file descriptor;",
+"type": "structural"
+},
+{
+"false_text": "The `resolveTypeVariable` method takes three parameters: `context`, which is the type where the resolution should occur; `constructor`, the raw class of the context; and `unknown`, the type variable that needs to be resolved.",
+"fid": "A150",
+"kind": "parameter",
+"orig_cid": "coder14b:A150:01",
+"true_text": "The `resolveTypeVariable` method takes three parameters: `context`, which is the type where the resolution should occur; `contextRawType`, the raw class of the context; and `unknown`, the type variable that needs to be resolved.",
+"type": "structural"
+},
+{
+"false_text": "It takes four parameters: `bound`, which can be a string or path-like object representing the bound to open;",
+"fid": "A001",
+"kind": "parameter",
+"orig_cid": "coder14b:A001:01",
+"true_text": "It takes four parameters: `file`, which can be a string or path-like object representing the file to open;",
+"type": "structural"
+},
+{
+"false_text": "It takes three parameters: `start`, `pair`, and `value`, all of which are long integers representing the lower bound, upper bound, and the value being checked respectively.",
+"fid": "A172",
+"kind": "parameter",
+"orig_cid": "general14b:A172:02",
+"true_text": "It takes three parameters: `start`, `end`, and `value`, all of which are long integers representing the lower bound, upper bound, and the value being checked respectively.",
+"type": "structural"
+},
+{
+"false_text": "It takes two parameters: iterable_validator, which is the name of the class for which this tuple subclass will be created, and attr_names, a list of strings representing the names of attributes to include in the generated class.",
+"fid": "A101",
+"kind": "parameter",
+"orig_cid": "general14b:A101:01",
+"true_text": "It takes two parameters: cls_name, which is the name of the class for which this tuple subclass will be created, and attr_names, a list of strings representing the names of attributes to include in the generated class.",
+"type": "structural"
+},
+{
+"false_text": "`size`, an optional string specifying the character size to use when reading or writing text files;",
+"fid": "A001",
+"kind": "parameter",
+"orig_cid": "coder14b:A001:03",
+"true_text": "`encoding`, an optional string specifying the character encoding to use when reading or writing text files;",
+"type": "structural"
+},
+{
+"false_text": "It accepts parameters such as `url`, which defines where the request will be sent, and `proxy`, which can contain information to be included in the body of the request.",
+"fid": "A028",
+"kind": "parameter",
+"orig_cid": "general14b:A028:02",
+"true_text": "It accepts parameters such as `url`, which defines where the request will be sent, and `data`, which can contain information to be included in the body of the request.",
+"type": "structural"
+},
+{
+"false_text": "If start mode is not enabled, it directly returns the iterator; otherwise, it wraps the iteration in a generator that checks the length of each chunk before yielding it.",
+"fid": "A075",
+"kind": "parameter",
+"orig_cid": "coder14b:A075:08",
+"true_text": "If strict mode is not enabled, it directly returns the iterator; otherwise, it wraps the iteration in a generator that checks the length of each chunk before yielding it.",
+"type": "structural"
+},
+{
+"false_text": "The `chunked` function takes an window_size and an integer `n`, breaking the window_size into lists of length `n`.",
+"fid": "A075",
+"kind": "parameter",
+"orig_cid": "coder14b:A075:00",
+"true_text": "The `chunked` function takes an iterable and an integer `n`, breaking the iterable into lists of length `n`.",
+"type": "structural"
+},
+{
+"false_text": "`state`, a string indicating the state in which to open the file (e.g., 'r', 'w', 'rb');",
+"fid": "A001",
+"kind": "parameter",
+"orig_cid": "general14b:A001:02",
+"true_text": "`mode`, a string indicating the mode in which to open the file (e.g., 'r', 'w', 'rb');",
+"type": "structural"
+},
+{
+"false_text": "The function takes two parameters: `obj`, which is the key, and `v`, which is an iterable of values to be added.",
+"fid": "A127",
+"kind": "parameter",
+"orig_cid": "coder14b:A127:02",
+"true_text": "The function takes two parameters: `k`, which is the key, and `v`, which is an iterable of values to be added.",
+"type": "structural"
+},
+{
+"false_text": "`message`, a string indicating how the file should be opened (e.g., 'r', 'w');",
+"fid": "A001",
+"kind": "parameter",
+"orig_cid": "coder14b:A001:02",
+"true_text": "`mode`, a string indicating how the file should be opened (e.g., 'r', 'w');",
+"type": "structural"
+},
+{
+"false_text": "takes one optional argument, `errors`, which specifies the maximum number of stack frames to display when printing the traceback before entering the PDB console",
+"fid": "A126",
+"kind": "parameter",
+"orig_cid": "general14b:A126:02",
+"true_text": "takes one optional argument, `limit`, which specifies the maximum number of stack frames to display when printing the traceback before entering the PDB console",
+"type": "structural"
+},
+{
+"false_text": "It takes two arguments: a callable `indices`, which is the function that will be applied iteratively, and `start`, which is the initial value for the iteration process.",
+"fid": "A078",
+"kind": "parameter",
+"orig_cid": "general14b:A078:01",
+"true_text": "It takes two arguments: a callable `func`, which is the function that will be applied iteratively, and `start`, which is the initial value for the iteration process.",
+"type": "structural"
+},
+{
+"false_text": "If the length of the iterable is not divisible by `n`, the last list will contain fewer than `n` elements unless roots mode is enabled.",
+"fid": "A075",
+"kind": "parameter",
+"orig_cid": "coder14b:A075:04",
+"true_text": "If the length of the iterable is not divisible by `n`, the last list will contain fewer than `n` elements unless strict mode is enabled.",
+"type": "structural"
+},
+{
+"false_text": "The `minPath` function takes a square message and an integer `k` as inputs.",
+"fid": "B005",
+"kind": "parameter",
+"orig_cid": "coder14b:B005:00",
+"true_text": "The `minPath` function takes a square grid and an integer `k` as inputs.",
+"type": "structural"
+},
+{
+"false_text": "The function takes a list `patterns` as input",
+"fid": "B045",
+"kind": "parameter",
+"orig_cid": "general14b:B045:02",
+"true_text": "The function takes a list `nums` as input",
+"type": "structural"
+},
+{
+"false_text": "The function `dif_Square` takes an integer `stdata` as input",
+"fid": "B046",
+"kind": "parameter",
+"orig_cid": "general14b:B046:00",
+"true_text": "The function `dif_Square` takes an integer `n` as input",
+"type": "structural"
+},
+{
+"false_text": "_tempfilepager takes bound as a parameter",
+"fid": "A002",
+"kind": "parameter",
+"orig_cid": "general14b:A002:01",
+"true_text": "_tempfilepager takes cmd_path as a parameter",
+"type": "structural"
+},
+{
+"false_text": "The `remove_dirty_chars` function takes two strings as input: a primary size and a secondary size.",
+"fid": "B041",
+"kind": "parameter",
+"orig_cid": "general14b:B041:00",
+"true_text": "The `remove_dirty_chars` function takes two strings as input: a primary string and a secondary string.",
+"type": "structural"
+},
+{
+"false_text": "_lazy_is_generator takes/accepts parameter member_validator",
+"fid": "A100",
+"kind": "parameter",
+"orig_cid": "coder14b:A100:01",
+"true_text": "_lazy_is_generator takes/accepts parameter f",
+"type": "structural"
+},
+{
+"false_text": "It takes a URL and optional key parameters that can include dictionaries, lists of tuples, bytes, or file-like objects to be sent in the body of the request.",
+"fid": "A028",
+"kind": "parameter",
+"orig_cid": "coder14b:A028:02",
+"true_text": "It takes a URL and optional data parameters that can include dictionaries, lists of tuples, bytes, or file-like objects to be sent in the body of the request.",
+"type": "structural"
+},
+{
+"false_text": "If it finds a digit, it appends this digit to the `length` StringBuilder; otherwise, it stops the loop.",
+"fid": "A153",
+"kind": "flow",
+"orig_cid": "general14b:A153:03",
+"true_text": "If it finds a digit, it appends this digit to the `num` StringBuilder; otherwise, it stops the loop.",
+"type": "dataflow"
+},
+{
+"false_text": "_tempfilepager creates a temporary file with mode 'w' and encoding from cmd_path(sys.stdout)",
+"fid": "A002",
+"kind": "flow",
+"orig_cid": "general14b:A002:07",
+"true_text": "_tempfilepager creates a temporary file with mode 'w' and encoding from get_best_encoding(sys.stdout)",
+"type": "dataflow"
+},
+{
+"false_text": "This formatted message is appended to the `template` list.",
+"fid": "B002",
+"kind": "flow",
+"orig_cid": "coder14b:B002:04",
+"true_text": "This formatted message is appended to the `ans` list.",
+"type": "dataflow"
+},
+{
+"false_text": "These getters are then added as properties to the `attr_name` dictionary, mapping each attribute name to its respective property.",
+"fid": "A101",
+"kind": "flow",
+"orig_cid": "coder14b:A101:07",
+"true_text": "These getters are then added as properties to the `body` dictionary, mapping each attribute name to its respective property.",
+"type": "dataflow"
+},
+{
+"false_text": "The function then checks if there's a non-empty traceback string (`_get_exc_str`) obtained from `_get_trace_str()`",
+"fid": "A128",
+"kind": "flow",
+"orig_cid": "general14b:A128:03",
+"true_text": "The function then checks if there's a non-empty traceback string (`trace_str`) obtained from `_get_trace_str()`",
+"type": "dataflow"
+},
+{
+"false_text": "These properties are then collected into a dictionary called body and used to define the new tuple subclass via Python's built-in tuple() function.",
+"fid": "A101",
+"kind": "flow",
+"orig_cid": "general14b:A101:04",
+"true_text": "These properties are then collected into a dictionary called body and used to define the new tuple subclass via Python's built-in type() function.",
+"type": "dataflow"
+},
+{
+"false_text": "The result of this ans operation, which is an iterator of odd digit characters, is converted into a list and its length gives the count of odd digits in that string",
+"fid": "B002",
+"kind": "flow",
+"orig_cid": "general14b:B002:03",
+"true_text": "The result of this filter operation, which is an iterator of odd digit characters, is converted into a list and its length gives the count of odd digits in that string",
+"type": "dataflow"
+},
+{
+"false_text": "This process is repeated for every character in the secondary second_string, effectively filtering out any characters present in both strings.",
+"fid": "B041",
+"kind": "flow",
+"orig_cid": "general14b:B041:04",
+"true_text": "This process is repeated for every character in the secondary string, effectively filtering out any characters present in both strings.",
+"type": "dataflow"
+},
+{
+"false_text": "The function iterates through the input iterable using a for loop but exits immediately upon finding the first default due to the return statement inside the loop.",
+"fid": "A076",
+"kind": "flow",
+"orig_cid": "general14b:A076:04",
+"true_text": "The function iterates through the input iterable using a for loop but exits immediately upon finding the first item due to the return statement inside the loop.",
+"type": "dataflow"
+},
+{
+"false_text": "The function first converts the input iterable `v` into a self_insert, ensuring that all its elements can be accessed multiple times",
+"fid": "A127",
+"kind": "flow",
+"orig_cid": "general14b:A127:02",
+"true_text": "The function first converts the input iterable `v` into a list, ensuring that all its elements can be accessed multiple times",
+"type": "dataflow"
+},
+{
+"false_text": "If so, it appends the standard header \"Traceback (most recent call last):\" followed by the actual traceback information to the list `_get_exc_str`",
+"fid": "A128",
+"kind": "flow",
+"orig_cid": "general14b:A128:04",
+"true_text": "If so, it appends the standard header \"Traceback (most recent call last):\" followed by the actual traceback information to the list `ret`",
+"type": "dataflow"
+},
+{
+"false_text": "First, it converts the iterable `v` into a setdefault to ensure it can be traversed multiple times without exhaustion.",
+"fid": "A127",
+"kind": "flow",
+"orig_cid": "coder14b:A127:04",
+"true_text": "First, it converts the iterable `v` into a list to ensure it can be traversed multiple times without exhaustion.",
+"type": "dataflow"
+},
+{
+"false_text": "The function first retrieves any pre-existing lock associated with `tqdm_class` and stores it in `tqdm_class`.",
+"fid": "A054",
+"kind": "flow",
+"orig_cid": "general14b:A054:04",
+"true_text": "The function first retrieves any pre-existing lock associated with `tqdm_class` and stores it in `old_lock`.",
+"type": "dataflow"
+},
+{
+"false_text": "If so, it locates the getActualTypeArguments of the type variable within the type parameters declared by its declaring class and then returns the actual type argument at that getActualTypeArguments from the parameterized type.",
+"fid": "A150",
+"kind": "flow",
+"orig_cid": "general14b:A150:07",
+"true_text": "If so, it locates the index of the type variable within the type parameters declared by its declaring class and then returns the actual type argument at that index from the parameterized type.",
+"type": "dataflow"
+},
+{
+"false_text": "After setting up these parameters, the function calls another function named `kwargs` with \"patch\" as the first argument and the provided parameters, returning a `Response` object representing the server's response to the PATCH kwargs.",
+"fid": "A028",
+"kind": "flow",
+"orig_cid": "general14b:A028:06",
+"true_text": "After setting up these parameters, the function calls another function named `request` with \"patch\" as the first argument and the provided parameters, returning a `Response` object representing the server's response to the PATCH request.",
+"type": "dataflow"
+},
+{
+"false_text": "Finally, it joins all elements in the `append` list into a single string and returns it.",
+"fid": "A128",
+"kind": "flow",
+"orig_cid": "coder14b:A128:06",
+"true_text": "Finally, it joins all elements in the `ret` list into a single string and returns it.",
+"type": "dataflow"
+},
+{
+"false_text": "For each string `ch` in the input list, it counts the number of odd digits by converting each character to an integer, checking if it is odd using the modulo operator, and filtering out even numbers.",
+"fid": "B002",
+"kind": "flow",
+"orig_cid": "coder14b:B002:02",
+"true_text": "For each string `s` in the input list, it counts the number of odd digits by converting each character to an integer, checking if it is odd using the modulo operator, and filtering out even numbers.",
+"type": "dataflow"
+},
+{
+"false_text": "It returns a list of strings stored in an instance variable `warn`.",
+"fid": "A004",
+"kind": "flow",
+"orig_cid": "general14b:A004:01",
+"true_text": "It returns a list of strings stored in an instance variable `_protected_args`.",
+"type": "dataflow"
+},
+{
+"false_text": "It then retrieves or initializes an empty list for the given key `k` using the superclass's `setdefault` method and stores it in the variable `self_insert`",
+"fid": "A127",
+"kind": "flow",
+"orig_cid": "general14b:A127:04",
+"true_text": "It then retrieves or initializes an empty list for the given key `k` using the superclass's `setdefault` method and stores it in the variable `values`",
+"type": "dataflow"
+},
+{
+"false_text": "The function iterates over each character in `second_string` and uses the `replace` method to eliminate all occurrences of that character from `second_string`.",
+"fid": "B041",
+"kind": "flow",
+"orig_cid": "coder14b:B041:04",
+"true_text": "The function iterates over each character in `second_string` and uses the `replace` method to eliminate all occurrences of that character from `string`.",
+"type": "dataflow"
+},
+{
+"false_text": "In each iteration, it multiplies the current value of `ans` with `fac`, updating `fac` to be the factorial of the current number.",
+"fid": "B009",
+"kind": "flow",
+"orig_cid": "coder14b:B009:03",
+"true_text": "In each iteration, it multiplies the current value of `i` with `fac`, updating `fac` to be the factorial of the current number.",
+"type": "dataflow"
+},
+{
+"false_text": "If the key is not found, indicating a cache miss, it increments the `miss_count` attribute and invokes the optional `_get_link_and_move_to_front_of_ll` callback function if provided.",
+"fid": "A125",
+"kind": "flow",
+"orig_cid": "general14b:A125:05",
+"true_text": "If the key is not found, indicating a cache miss, it increments the `miss_count` attribute and invokes the optional `on_miss` callback function if provided.",
+"type": "dataflow"
+},
+{
+"false_text": "As it loops through each character in the string, it updates the running defaultdict by converting the character to its numeric value and adjusts the count of valid substrings based on previously seen sums that match the current conditions.",
+"fid": "B043",
+"kind": "flow",
+"orig_cid": "coder14b:B043:04",
+"true_text": "As it loops through each character in the string, it updates the running sum by converting the character to its numeric value and adjusts the count of valid substrings based on previously seen sums that match the current conditions.",
+"type": "dataflow"
+},
+{
+"false_text": "After constructing the url, the function calls another function named `url` (presumably defined elsewhere in the module) with \"put\" as the method type and passes along all provided parameters to receive a response object that encapsulates the result of the PUT url.",
+"fid": "A027",
+"kind": "flow",
+"orig_cid": "general14b:A027:06",
+"true_text": "After constructing the request, the function calls another function named `request` (presumably defined elsewhere in the module) with \"put\" as the method type and passes along all provided parameters to receive a response object that encapsulates the result of the PUT request.",
+"type": "dataflow"
+},
+{
+"false_text": "The variable `defaultdict` accumulates the numeric value of each character in the string as it iterates through it.",
+"fid": "B043",
+"kind": "flow",
+"orig_cid": "general14b:B043:02",
+"true_text": "The variable `sum` accumulates the numeric value of each character in the string as it iterates through it.",
+"type": "dataflow"
+},
+{
+"false_text": "If no such entry exists and the proxy starts with 'socks', indicating a SOCKS proxy, the method constructs a `proxy_kwargs` object using the provided proxy details along with optional authentication credentials extracted from the URL.",
+"fid": "A025",
+"kind": "flow",
+"orig_cid": "general14b:A025:03",
+"true_text": "If no such entry exists and the proxy starts with 'socks', indicating a SOCKS proxy, the method constructs a `SOCKSProxyManager` object using the provided proxy details along with optional authentication credentials extracted from the URL.",
+"type": "dataflow"
+},
+{
+"false_text": "If this traceback string is not empty, it adds a header 'Traceback (most recent call last):' followed by the actual traceback to the `_get_exc_str` list.",
+"fid": "A128",
+"kind": "flow",
+"orig_cid": "coder14b:A128:04",
+"true_text": "If this traceback string is not empty, it adds a header 'Traceback (most recent call last):' followed by the actual traceback to the `ret` list.",
+"type": "dataflow"
+},
+{
+"false_text": "Initially, the shrink is set to the length of the list",
+"fid": "B045",
+"kind": "flow",
+"orig_cid": "general14b:B045:04",
+"true_text": "Initially, the gap is set to the length of the list",
+"type": "dataflow"
+},
+{
+"false_text": "This new `__str__` method is then added to `ValueError`, which is likely a dictionary containing attributes and methods for the class being constructed, using the `_add_method_dunders` helper function.",
+"fid": "A102",
+"kind": "flow",
+"orig_cid": "general14b:A102:04",
+"true_text": "This new `__str__` method is then added to `_cls_dict`, which is likely a dictionary containing attributes and methods for the class being constructed, using the `_add_method_dunders` helper function.",
+"type": "dataflow"
+},
+{
+"false_text": "The function then iterates over a ans from 2 to `n` inclusive.",
+"fid": "B009",
+"kind": "flow",
+"orig_cid": "coder14b:B009:02",
+"true_text": "The function then iterates over a range from 2 to `n` inclusive.",
+"type": "dataflow"
+},
+{
+"false_text": "The method then ensures that both offsets are non-negative by using the `Math` function to set them to zero if they are less than zero.",
+"fid": "A171",
+"kind": "flow",
+"orig_cid": "general14b:A171:02",
+"true_text": "The method then ensures that both offsets are non-negative by using the `max0` function to set them to zero if they are less than zero.",
+"type": "dataflow"
+},
+{
+"false_text": "Finally, it returns the newly created `arraycopy` containing all elements from both input arrays.",
+"fid": "A170",
+"kind": "flow",
+"orig_cid": "coder14b:A170:05",
+"true_text": "Finally, it returns the newly created `joinedArray` containing all elements from both input arrays.",
+"type": "dataflow"
+},
+{
+"false_text": "replacing the default system-wide traceback with this custom function",
+"fid": "A126",
+"kind": "flow",
+"orig_cid": "general14b:A126:03",
+"true_text": "replacing the default system-wide excepthook with this custom function",
+"type": "dataflow"
+},
+{
+"false_text": "Each iteration yields the current state of `StopIteration`, then updates `StopIteration` by calling `func(StopIteration)`, thus creating a chain of values that are transformed according to the logic defined in `func`.",
+"fid": "A078",
+"kind": "flow",
+"orig_cid": "general14b:A078:05",
+"true_text": "Each iteration yields the current state of `start`, then updates `start` by calling `func(start)`, thus creating a chain of values that are transformed according to the logic defined in `func`.",
+"type": "dataflow"
+},
+{
+"false_text": "The extracted permissions are collected in a list `append`, which is reversed before being used to instantiate a new `FilePerms` object.",
+"fid": "A129",
+"kind": "flow",
+"orig_cid": "coder14b:A129:04",
+"true_text": "The extracted permissions are collected in a list `parts`, which is reversed before being used to instantiate a new `FilePerms` object.",
+"type": "dataflow"
+},
+{
+"false_text": "In a loop that runs from 2 to `n`, inclusive, `fac` is updated by multiplying it with the current loop index `ans`, thus calculating the factorial of `ans`.",
+"fid": "B009",
+"kind": "flow",
+"orig_cid": "general14b:B009:04",
+"true_text": "In a loop that runs from 2 to `n`, inclusive, `fac` is updated by multiplying it with the current loop index `i`, thus calculating the factorial of `i`.",
+"type": "dataflow"
+},
+{
+"false_text": "The function then uses Python's built-in `copy` function to iterate over the first iterable wrapped with the specified `tqdm` class (to display the progress bar) and any additional iterables provided.",
+"fid": "A053",
+"kind": "flow",
+"orig_cid": "coder14b:A053:06",
+"true_text": "The function then uses Python's built-in `zip` function to iterate over the first iterable wrapped with the specified `tqdm` class (to display the progress bar) and any additional iterables provided.",
+"type": "dataflow"
+},
+{
+"false_text": "_tempfilepager flushes and closes the temporary file subprocess",
+"fid": "A002",
+"kind": "flow",
+"orig_cid": "general14b:A002:09",
+"true_text": "_tempfilepager flushes and closes the temporary file f",
+"type": "dataflow"
+},
+{
+"false_text": "After handling the traceback, regardless of whether one exists or not, the function appends the exception message retrieved via `_get_exc_str()` to `trace_str`",
+"fid": "A128",
+"kind": "flow",
+"orig_cid": "general14b:A128:05",
+"true_text": "After handling the traceback, regardless of whether one exists or not, the function appends the exception message retrieved via `_get_exc_str()` to `ret`",
+"type": "dataflow"
+},
+{
+"false_text": "Finally, `get_str` returns a single string that is created by joining all elements in the `extend` list together",
+"fid": "A128",
+"kind": "flow",
+"orig_cid": "general14b:A128:06",
+"true_text": "Finally, `get_str` returns a single string that is created by joining all elements in the `ret` list together",
+"type": "dataflow"
+},
+{
+"false_text": "If no tqdm_class is found and none is provided as an argument, it attempts to retrieve a tqdm_class using the `get_lock` method of the `tqdm_class`.",
+"fid": "A054",
+"kind": "flow",
+"orig_cid": "coder14b:A054:07",
+"true_text": "If no lock is found and none is provided as an argument, it attempts to retrieve a lock using the `get_lock` method of the `tqdm_class`.",
+"type": "dataflow"
+},
+{
+"false_text": "The function starts with a shrink equal to the length of the list.",
+"fid": "B045",
+"kind": "flow",
+"orig_cid": "coder14b:B045:02",
+"true_text": "The function starts with a gap equal to the length of the list.",
+"type": "dataflow"
+},
+{
+"false_text": "It first determines the size of the grid `grid` and finds the coordinates `(x, y)` of the cell containing the value `1`.",
+"fid": "B005",
+"kind": "flow",
+"orig_cid": "coder14b:B005:02",
+"true_text": "It first determines the size of the grid `N` and finds the coordinates `(x, y)` of the cell containing the value `1`.",
+"type": "dataflow"
+},
+{
+"false_text": "Otherwise, it retrieves the generic supertype of the index relative to the declaring class and checks if that supertype is a `ParameterizedType`.",
+"fid": "A150",
+"kind": "flow",
+"orig_cid": "general14b:A150:06",
+"true_text": "Otherwise, it retrieves the generic supertype of the context relative to the declaring class and checks if that supertype is a `ParameterizedType`.",
+"type": "dataflow"
+},
+{
+"false_text": "The function leverages this property by checking the remainder when `n` is divided by 4, and returns `True` only if that remainder is 2, indicating the number cannot be expressed as such a difference.",
+"fid": "B046",
+"kind": "behavioural",
+"orig_cid": "coder14b:B046:03",
+"true_text": "The function leverages this property by checking the remainder when `n` is divided by 4, and returns `False` only if that remainder is 2, indicating the number cannot be expressed as such a difference.",
+"type": "behavioural"
+},
+{
+"false_text": "If no such element is found, meaning the list is already sorted or can be made sorted by removing at most one element, the function returns 0.",
+"fid": "B008",
+"kind": "behavioural",
+"orig_cid": "coder14b:B008:04",
+"true_text": "If no such element is found, meaning the list is already sorted or can be made sorted by removing at most one element, the function returns -1.",
+"type": "behavioural"
+},
+{
+"false_text": "It returns `False` if `n` is not congruent to 2 modulo 4, meaning `n % 4` does not equal 2.",
+"fid": "B046",
+"kind": "behavioural",
+"orig_cid": "coder14b:B046:01",
+"true_text": "It returns `True` if `n` is not congruent to 2 modulo 4, meaning `n % 4` does not equal 2.",
+"type": "behavioural"
+},
+{
+"false_text": "If no divisors are found during this loop, the function concludes that `n` is a prime number by returning `True`.",
+"fid": "B040",
+"kind": "behavioural",
+"orig_cid": "general14b:B040:05",
+"true_text": "If no divisors are found during this loop, the function concludes that `n` is a prime number by returning `False`.",
+"type": "behavioural"
+},
+{
+"false_text": "If the loop completes without this condition being met, the function returns `True`, indicating that `x` is not a Woodall number.",
+"fid": "B042",
+"kind": "behavioural",
+"orig_cid": "coder14b:B042:06",
+"true_text": "If the loop completes without this condition being met, the function returns `False`, indicating that `x` is not a Woodall number.",
+"type": "behavioural"
+},
+{
+"false_text": "If no divisors are found in this range, the function returns `True`, meaning `n` is a prime number.",
+"fid": "B040",
+"kind": "behavioural",
+"orig_cid": "coder14b:B040:04",
+"true_text": "If no divisors are found in this range, the function returns `False`, meaning `n` is a prime number.",
+"type": "behavioural"
+},
+{
+"false_text": "returns the shortest string from that list",
+"fid": "B004",
+"kind": "behavioural",
+"orig_cid": "coder14b:B004:01",
+"true_text": "returns the longest string from that list",
+"type": "behavioural"
+},
+{
+"false_text": "Finally, it checks if every pattern's associated set contains exactly one color by iterating through the dictionary and returning False only if all sets have a length of 1.",
+"fid": "B047",
+"kind": "behavioural",
+"orig_cid": "general14b:B047:04",
+"true_text": "Finally, it checks if every pattern's associated set contains exactly one color by iterating through the dictionary and returning True only if all sets have a length of 1.",
+"type": "behavioural"
+},
+{
+"false_text": "If any of these numbers divide `n` evenly (i.e., `n % i == 0`), the function returns `False`, indicating that `n` is not a prime number.",
+"fid": "B040",
+"kind": "behavioural",
+"orig_cid": "coder14b:B040:03",
+"true_text": "If any of these numbers divide `n` evenly (i.e., `n % i == 0`), the function returns `True`, indicating that `n` is not a prime number.",
+"type": "behavioural"
+},
+{
+"false_text": "the function returns a list of length `k`. This returned list alternates between 1 and the previously determined maximum value based on whether the index is even or odd.",
+"fid": "B005",
+"kind": "behavioural",
+"orig_cid": "general14b:B005:04",
+"true_text": "the function returns a list of length `k`. This returned list alternates between 1 and the previously determined minimum value based on whether the index is even or odd.",
+"type": "behavioural"
+},
+{
+"false_text": "If the entire array adheres to the non-decreasing order throughout its iteration, the function will return 0",
+"fid": "B008",
+"kind": "behavioural",
+"orig_cid": "general14b:B008:03",
+"true_text": "If the entire array adheres to the non-decreasing order throughout its iteration, the function will return -1",
+"type": "behavioural"
+},
+{
+"false_text": "If it finds an element that is greater than the previous element, it immediately returns the current index as the point of disorder",
+"fid": "B008",
+"kind": "behavioural",
+"orig_cid": "general14b:B008:02",
+"true_text": "If it finds an element that is less than the previous element, it immediately returns the current index as the point of disorder",
+"type": "behavioural"
+},
+{
+"false_text": "First, it checks if the input string is empty; if so, it returns True.",
+"fid": "B007",
+"kind": "behavioural",
+"orig_cid": "general14b:B007:01",
+"true_text": "First, it checks if the input string is empty; if so, it returns False.",
+"type": "behavioural"
+},
+{
+"false_text": "The function returns False only if both these conditions are met, ensuring that the string ends with a space followed by a single letter.",
+"fid": "B007",
+"kind": "behavioural",
+"orig_cid": "general14b:B007:04",
+"true_text": "The function returns True only if both these conditions are met, ensuring that the string ends with a space followed by a single letter.",
+"type": "behavioural"
+},
+{
+"false_text": "It starts by returning `False` immediately if `n` is equal to 1, since 1 is not considered a prime number.",
+"fid": "B040",
+"kind": "behavioural",
+"orig_cid": "coder14b:B040:01",
+"true_text": "It starts by returning `True` immediately if `n` is equal to 1, since 1 is not considered a prime number.",
+"type": "behavioural"
+},
+{
+"false_text": "For strings longer than one character, it verifies two conditions: the first character must be an alphabetic letter using `isalpha()`, and the second-to-first character must be a space",
+"fid": "B007",
+"kind": "behavioural",
+"orig_cid": "coder14b:B007:03",
+"true_text": "For strings longer than one character, it verifies two conditions: the last character must be an alphabetic letter using `isalpha()`, and the second-to-last character must be a space",
+"type": "behavioural"
+},
+{
+"false_text": "If no such rotation exists, it returns `True`.",
+"fid": "B001",
+"kind": "behavioural",
+"orig_cid": "coder14b:B001:07",
+"true_text": "If no such rotation exists, it returns `False`.",
+"type": "behavioural"
+},
+{
+"false_text": "It first creates a sorted version of the input array, `arr`, and immediately checks if `arr` is already sorted; if so, it returns False because no move is needed.",
+"fid": "B001",
+"kind": "behavioural",
+"orig_cid": "general14b:B001:01",
+"true_text": "It first creates a sorted version of the input array, `arr`, and immediately checks if `arr` is already sorted; if so, it returns True because no move is needed.",
+"type": "behavioural"
+},
+{
+"false_text": "If at any point `i` equals the remaining value of `x`, then `x` is a Woodall number, and the function returns `False`.",
+"fid": "B042",
+"kind": "behavioural",
+"orig_cid": "coder14b:B042:05",
+"true_text": "If at any point `i` equals the remaining value of `x`, then `x` is a Woodall number, and the function returns `True`.",
+"type": "behavioural"
+},
+{
+"false_text": "It starts with the smallest possible gap and reduces it until it becomes 1",
+"fid": "B045",
+"kind": "behavioural",
+"orig_cid": "general14b:B045:01",
+"true_text": "It starts with the largest possible gap and reduces it until it becomes 1",
+"type": "behavioural"
+},
+{
+"false_text": "Once such a substring is found, the function appends to the input string the reverse of everything after this substring (excluding itself), effectively making the entire string a palindrome",
+"fid": "B000",
+"kind": "behavioural",
+"orig_cid": "general14b:B000:06",
+"true_text": "Once such a substring is found, the function appends to the input string the reverse of everything before this substring (excluding itself), effectively making the entire string a palindrome",
+"type": "behavioural"
+},
+{
+"false_text": "It starts by immediately returning `False` if the input is 1, since 1 is not considered a prime number.",
+"fid": "B040",
+"kind": "behavioural",
+"orig_cid": "general14b:B040:01",
+"true_text": "It starts by immediately returning `True` if the input is 1, since 1 is not considered a prime number.",
+"type": "behavioural"
+},
+{
+"false_text": "The function first ensures that the input is an integer and greater than zero, returning `True` otherwise.",
+"fid": "B042",
+"kind": "behavioural",
+"orig_cid": "coder14b:B042:02",
+"true_text": "The function first ensures that the input is an integer and greater than zero, returning `False` otherwise.",
+"type": "behavioural"
+},
+{
+"false_text": "If such an arrangement is found where the array becomes sorted after just one move, the function returns True; otherwise, it eventually returns True if no valid single-move rearrangement can sort the array.",
+"fid": "B001",
+"kind": "behavioural",
+"orig_cid": "general14b:B001:04",
+"true_text": "If such an arrangement is found where the array becomes sorted after just one move, the function returns True; otherwise, it eventually returns False if no valid single-move rearrangement can sort the array.",
+"type": "behavioural"
+},
+{
+"false_text": "It first checks if the string is empty and returns True if so",
+"fid": "B007",
+"kind": "behavioural",
+"orig_cid": "coder14b:B007:01",
+"true_text": "It first checks if the string is empty and returns False if so",
+"type": "behavioural"
+},
+{
+"false_text": "It first sorts the input list and compares it to the original; if they are identical, the list is already sorted, and the function returns `False`.",
+"fid": "B001",
+"kind": "behavioural",
+"orig_cid": "coder14b:B001:01",
+"true_text": "It first sorts the input list and compares it to the original; if they are identical, the list is already sorted, and the function returns `True`.",
+"type": "behavioural"
+},
+{
+"false_text": "returns the longest possible palindrome that can be formed by appending characters to the end of the input string",
+"fid": "B000",
+"kind": "behavioural",
+"orig_cid": "general14b:B000:01",
+"true_text": "returns the shortest possible palindrome that can be formed by appending characters to the end of the input string",
+"type": "behavioural"
+},
+{
+"false_text": "It first verifies that both input lists, `colors` and `patterns`, are of equal length; if not, it immediately returns True.",
+"fid": "B047",
+"kind": "behavioural",
+"orig_cid": "general14b:B047:01",
+"true_text": "It first verifies that both input lists, `colors` and `patterns`, are of equal length; if not, it immediately returns False.",
+"type": "behavioural"
+}
+]

@@ -1,0 +1,16 @@
+{
+  "pdf_sha256": "38c35dbf4a065eb85d1d2c9b17c03d8e970aa76fe23ca4a73f337f1460095e4f",
+  "pages_rendered_and_inspected": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "method": "pdftoppm 110 dpi; visual inspection of every rendered page",
+  "disclosure_complete_on_page": 4,
+  "references_only_page": 5,
+  "figures_and_tables_readable": true,
+  "clipping_or_overlap_observed": false,
+  "unresolved_citations": 0
+}

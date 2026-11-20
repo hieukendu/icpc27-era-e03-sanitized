@@ -1,0 +1,5 @@
+type,n,share,true,false,undischargeable,unverifiable,discharged_share,false_among_discharged,top_subtypes
+structural,252,0.3066,225,15,0,12,0.9524,0.0625,calls:96;parameter:96;returns:33;imports:8
+dataflow,184,0.2238,145,10,0,29,0.8424,0.0645,flow:184
+behavioural,199,0.2421,50,9,0,140,0.2965,0.1525,output:87;general:81;exception:25;side_effect:5
+intent,187,0.2275,0,0,187,0,0.0,,purpose:141;rationale:23;context:18;other:5

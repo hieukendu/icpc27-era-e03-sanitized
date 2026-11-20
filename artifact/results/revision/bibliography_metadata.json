@@ -1,0 +1,2226 @@
+[
+  {
+    "key": "sistla2025verified",
+    "source_url": "https://arxiv.org/abs/2509.26546",
+    "metadata": {
+      "citation_title": [
+        "Towards Verified Code Reasoning by LLMs"
+      ],
+      "citation_author": [
+        "Sistla, Meghana",
+        "Balakrishnan, Gogul",
+        "Rondon, Pat",
+        "Cambronero, Jos\u00e9",
+        "Tufano, Michele",
+        "Chandra, Satish"
+      ],
+      "citation_date": [
+        "2025/09/30"
+      ],
+      "citation_online_date": [
+        "2025/11/13"
+      ],
+      "citation_pdf_url": [
+        "https://arxiv.org/pdf/2509.26546"
+      ],
+      "citation_arxiv_id": [
+        "2509.26546"
+      ]
+    },
+    "retrieved": true
+  },
+  {
+    "key": "kaufman2026assertions",
+    "source_url": "https://arxiv.org/abs/2607.08885",
+    "metadata": {
+      "citation_title": [
+        "Programmers Are Poor and Overconfident Judges of LLM-Generated Assertions"
+      ],
+      "citation_author": [
+        "Kaufman, Zhanna",
+        "Brun, Yuriy",
+        "Murali, Adithya",
+        "Endres, Madeline"
+      ],
+      "citation_date": [
+        "2026/07/09"
+      ],
+      "citation_online_date": [
+        "2026/07/09"
+      ],
+      "citation_pdf_url": [
+        "https://arxiv.org/pdf/2607.08885"
+      ],
+      "citation_arxiv_id": [
+        "2607.08885"
+      ]
+    },
+    "retrieved": true
+  },
+  {
+    "key": "xu2025justifications",
+    "source_url": "https://arxiv.org/abs/2508.06017",
+    "metadata": {
+      "citation_title": [
+        "Position: Intelligent Coding Systems Should Write Programs with Justifications"
+      ],
+      "citation_author": [
+        "Xu, Xiangzhe",
+        "Feng, Shiwei",
+        "Su, Zian",
+        "Wang, Chengpeng",
+        "Zhang, Xiangyu"
+      ],
+      "citation_date": [
+        "2025/08/08"
+      ],
+      "citation_online_date": [
+        "2025/08/08"
+      ],
+      "citation_pdf_url": [
+        "https://arxiv.org/pdf/2508.06017"
+      ],
+      "citation_arxiv_id": [
+        "2508.06017"
+      ]
+    },
+    "retrieved": true
+  },
+  {
+    "key": "thakur2025verifiablecot",
+    "source_url": "https://arxiv.org/abs/2512.00127",
+    "metadata": {
+      "citation_title": [
+        "Generating Verifiable Chain of Thoughts from Exection-Traces"
+      ],
+      "citation_author": [
+        "Thakur, Shailja",
+        "Saxena, Vaibhav",
+        "Kulkarni, Rohan",
+        "Singh, Shivdeep",
+        "Selvam, Parameswaran",
+        "Patel, Hima",
+        "Kanayama, Hiroshi"
+      ],
+      "citation_date": [
+        "2025/11/28"
+      ],
+      "citation_online_date": [
+        "2026/04/27"
+      ],
+      "citation_pdf_url": [
+        "https://arxiv.org/pdf/2512.00127"
+      ],
+      "citation_arxiv_id": [
+        "2512.00127"
+      ]
+    },
+    "retrieved": true
+  },
+  {
+    "key": "arafat2025citation",
+    "source_url": "https://arxiv.org/abs/2512.12117",
+    "metadata": {
+      "citation_title": [
+        "Citation-Grounded Code Comprehension: Preventing LLM Hallucination Through Hybrid Retrieval and Graph-Augmented Context"
+      ],
+      "citation_author": [
+        "Arafat, Jahidul"
+      ],
+      "citation_date": [
+        "2025/12/13"
+      ],
+      "citation_online_date": [
+        "2025/12/13"
+      ],
+      "citation_pdf_url": [
+        "https://arxiv.org/pdf/2512.12117"
+      ],
+      "citation_arxiv_id": [
+        "2512.12117"
+      ]
+    },
+    "retrieved": true
+  },
+  {
+    "key": "referee2026",
+    "source_url": "https://aclanthology.org/2026.acl-long.653.bib",
+    "metadata": {
+      "bibtex": "@inproceedings{bae-etal-2026-referee,\n    title = \"{R}e{FE}ree: Reference-Free and Fine-Grained Method for Evaluating Factual Consistency in Real-World Code Summarization\",\n    author = \"Bae, Suyoung  and\n      Na, CheolWon  and\n      Lee, Jaehoon  and\n      Lee, Yumin  and\n      Choi, YunSeok  and\n      Lee, Jee-Hyong\",\n    editor = \"Liakata, Maria  and\n      Moreira, Viviane P.  and\n      Zhang, Jiajun  and\n      Jurgens, David\",\n    booktitle = \"Proceedings of the 64th Annual Meeting of the {A}ssociation for {C}omputational {L}inguistics (Volume 1: Long Papers)\",\n    month = jul,\n    year = \"2026\",\n    address = \"San Diego, California, United States\",\n    publisher = \"Association for Computational Linguistics\",\n    url = \"https://aclanthology.org/2026.acl-long.653/\",\n    doi = \"10.18653/v1/2026.acl-long.653\",\n    pages = \"14352--14377\",\n    ISBN = \"979-8-89176-390-6\"\n}\n\n"
+    },
+    "page_title": [
+      "ReFEree: Reference-Free and Fine-Grained Method for Evaluating Factual Consistency in Real-World Code Summarization - ACL Anthology"
+    ],
+    "retrieved": true
+  },
+  {
+    "key": "etf2025",
+    "source_url": "https://aclanthology.org/2025.acl-long.1480.bib",
+    "metadata": {
+      "bibtex": "@inproceedings{maharaj-etal-2025-etf,\n    title = \"{ETF}: An Entity Tracing Framework for Hallucination Detection in Code Summaries\",\n    author = \"Maharaj, Kishan  and\n      Munigala, Vitobha  and\n      Tamilselvam, Srikanth G.  and\n      Kumar, Prince  and\n      Sen, Sayandeep  and\n      Kodeswaran, Palani  and\n      Mishra, Abhijit  and\n      Bhattacharyya, Pushpak\",\n    editor = \"Che, Wanxiang  and\n      Nabende, Joyce  and\n      Shutova, Ekaterina  and\n      Pilehvar, Mohammad Taher\",\n    booktitle = \"Proceedings of the 63rd Annual Meeting of the {A}ssociation for {C}omputational {L}inguistics (Volume 1: Long Papers)\",\n    month = jul,\n    year = \"2025\",\n    address = \"Vienna, Austria\",\n    publisher = \"Association for Computational Linguistics\",\n    url = \"https://aclanthology.org/2025.acl-long.1480/\",\n    doi = \"10.18653/v1/2025.acl-long.1480\",\n    pages = \"30639--30652\",\n    ISBN = \"979-8-89176-251-0\"\n}\n\n"
+    },
+    "page_title": [
+      "ETF: An Entity Tracing Framework for Hallucination Detection in Code Summaries - ACL Anthology"
+    ],
+    "retrieved": true
+  },
+  {
+    "key": "wan2026hallucination",
+    "source_url": "https://api.crossref.org/works/10.1145%2F3808139",
+    "metadata": {
+      "title": [
+        "Hallucinations in LLM-Based Code Summarization: Unveiling, Detection, and Mitigation"
+      ],
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0009-0006-4515-4398",
+          "authenticated-orcid": false,
+          "given": "Guanghua",
+          "family": "Wan",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Huazhong University of Science and Technology, Wuhan, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0001-1709-9436",
+          "authenticated-orcid": false,
+          "given": "Yuanning",
+          "family": "Feng",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Huazhong University of Science and Technology, Wuhan, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-6937-4180",
+          "authenticated-orcid": false,
+          "given": "Yao",
+          "family": "Wan",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Huazhong University of Science and Technology, Wuhan, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-4333-8063",
+          "authenticated-orcid": false,
+          "given": "Zhaoyang",
+          "family": "Chu",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Huazhong University of Science and Technology, Wuhan, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-2257-9052",
+          "authenticated-orcid": false,
+          "given": "Zhangqian",
+          "family": "Bi",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Huazhong University of Science and Technology, Wuhan, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-7630-8667",
+          "authenticated-orcid": false,
+          "given": "Junxiao",
+          "family": "Han",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Hangzhou City University, Hangzhou, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-6121-0384",
+          "authenticated-orcid": false,
+          "given": "Zhou",
+          "family": "Zhao",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Zhejiang University, Hangzhou, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-3063-9425",
+          "authenticated-orcid": false,
+          "given": "Hongyu",
+          "family": "Zhang",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Chongqing University, Chongqing, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-1656-5634",
+          "authenticated-orcid": false,
+          "given": "Pingpeng",
+          "family": "Yuan",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Huazhong University of Science and Technology, Wuhan, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-8451-8656",
+          "authenticated-orcid": false,
+          "given": "Xuanhua",
+          "family": "Shi",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Huazhong University of Science and Technology, Wuhan, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-3934-7605",
+          "authenticated-orcid": false,
+          "given": "Hai",
+          "family": "Jin",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Huazhong University of Science and Technology, Wuhan, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2026,
+            6,
+            30
+          ]
+        ]
+      },
+      "container-title": [
+        "Proceedings of the ACM on Software Engineering"
+      ],
+      "volume": "3",
+      "issue": "FSE",
+      "page": "2976-2999",
+      "article-number": null,
+      "DOI": "10.1145/3808139"
+    },
+    "retrieved": true
+  },
+  {
+    "key": "khatib2026mutation",
+    "source_url": "https://arxiv.org/abs/2602.17838",
+    "metadata": {
+      "citation_title": [
+        "Using Mutation-Analysis to Examine an LLM's Ability to Summarize Code"
+      ],
+      "citation_author": [
+        "Khatib, Lara",
+        "Pu, Michael",
+        "Vasilescu, Bogdan",
+        "Nagappan, Meiyappan"
+      ],
+      "citation_date": [
+        "2026/02/19"
+      ],
+      "citation_online_date": [
+        "2026/06/25"
+      ],
+      "citation_pdf_url": [
+        "https://arxiv.org/pdf/2602.17838"
+      ],
+      "citation_arxiv_id": [
+        "2602.17838"
+      ]
+    },
+    "retrieved": true
+  },
+  {
+    "key": "storey2026intentdebt",
+    "source_url": "https://arxiv.org/abs/2603.22106",
+    "metadata": {
+      "citation_title": [
+        "From Technical Debt to Cognitive and Intent Debt: Rethinking Software Health in the Age of AI"
+      ],
+      "citation_author": [
+        "Storey, Margaret-Anne"
+      ],
+      "citation_date": [
+        "2026/03/23"
+      ],
+      "citation_online_date": [
+        "2026/04/06"
+      ],
+      "citation_pdf_url": [
+        "https://arxiv.org/pdf/2603.22106"
+      ],
+      "citation_arxiv_id": [
+        "2603.22106"
+      ]
+    },
+    "retrieved": true
+  },
+  {
+    "key": "trustdynamics2025",
+    "source_url": "https://api.crossref.org/works/10.1109%2FICSE55347.2025.00199",
+    "retrieved": true,
+    "metadata": {
+      "title": [
+        "Trust Dynamics in AI-Assisted Development: Definitions, Factors, and Implications"
+      ],
+      "subtitle": [],
+      "author": [
+        {
+          "given": "Sadra",
+          "family": "Sabouri",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "University of Southern California,Department of Computer Science,Los Angeles,California"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Philipp",
+          "family": "Eibl",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "University of Southern California,Department of Computer Science,Los Angeles,California"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Xinyi",
+          "family": "Zhou",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "University of Southern California,Department of Computer Science,Los Angeles,California"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Morteza",
+          "family": "Ziyadi",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Amazon AGI"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Nenad",
+          "family": "Medvidovic",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "University of Southern California,Department of Computer Science,Los Angeles,California"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Lars",
+          "family": "Lindemann",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "University of Southern California,Department of Computer Science,Los Angeles,California"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Souti",
+          "family": "Chattopadhyay",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "University of Southern California,Department of Computer Science,Los Angeles,California"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            4,
+            26
+          ]
+        ]
+      },
+      "container-title": [
+        "2025 IEEE/ACM 47th International Conference on Software Engineering (ICSE)"
+      ],
+      "volume": null,
+      "issue": null,
+      "page": "1678-1690",
+      "article-number": null,
+      "DOI": "10.1109/icse55347.2025.00199"
+    }
+  },
+  {
+    "key": "tankelevitch2024metacognitive",
+    "source_url": "https://api.crossref.org/works/10.1145%2F3613904.3642902",
+    "metadata": {
+      "title": [
+        "The Metacognitive Demands and Opportunities of Generative AI"
+      ],
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0003-1286-5194",
+          "authenticated-orcid": false,
+          "given": "Lev",
+          "family": "Tankelevitch",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Microsoft Research, United Kingdom"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0009-5912-0676",
+          "authenticated-orcid": false,
+          "given": "Viktor",
+          "family": "Kewenig",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "University College London, United Kingdom"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-2996-4618",
+          "authenticated-orcid": false,
+          "given": "Auste",
+          "family": "Simkute",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "University of Edinburgh, United Kingdom"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-4469-4556",
+          "authenticated-orcid": false,
+          "given": "Ava Elizabeth",
+          "family": "Scott",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "UCLIC, University College London, United Kingdom and Institute of Cognitive Neuroscience, University College London, United Kingdom"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-5401-3478",
+          "authenticated-orcid": false,
+          "given": "Advait",
+          "family": "Sarkar",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Microsoft Research, United Kingdom"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-9065-3061",
+          "authenticated-orcid": false,
+          "given": "Abigail",
+          "family": "Sellen",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Microsoft Research, United Kingdom"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-0840-0546",
+          "authenticated-orcid": false,
+          "given": "Sean",
+          "family": "Rintel",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Microsoft Research, United Kingdom"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            5,
+            11
+          ]
+        ]
+      },
+      "container-title": [
+        "Proceedings of the CHI Conference on Human Factors in Computing Systems"
+      ],
+      "volume": null,
+      "issue": null,
+      "page": "1-24",
+      "article-number": null,
+      "DOI": "10.1145/3613904.3642902"
+    },
+    "retrieved": true
+  },
+  {
+    "key": "bucinca2021trust",
+    "source_url": "https://api.crossref.org/works/10.1145%2F3449287",
+    "metadata": {
+      "title": [
+        "To Trust or to Think"
+      ],
+      "author": [
+        {
+          "given": "Zana",
+          "family": "Bu\u00e7inca",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Harvard University, Cambridge, MA, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Maja Barbara",
+          "family": "Malaya",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Institute of Applied Computer Science, Lodz, Poland"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Krzysztof Z.",
+          "family": "Gajos",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Harvard University, Cambridge, MA, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2021,
+            4,
+            13
+          ]
+        ]
+      },
+      "container-title": [
+        "Proceedings of the ACM on Human-Computer Interaction"
+      ],
+      "volume": "5",
+      "issue": "CSCW1",
+      "page": "1-21",
+      "article-number": null,
+      "DOI": "10.1145/3449287"
+    },
+    "retrieved": true
+  },
+  {
+    "key": "vasconcelos2023explanations",
+    "source_url": "https://api.crossref.org/works/10.1145%2F3579605",
+    "metadata": {
+      "title": [
+        "Explanations Can Reduce Overreliance on AI Systems During Decision-Making"
+      ],
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-6649-6905",
+          "authenticated-orcid": false,
+          "given": "Helena",
+          "family": "Vasconcelos",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Stanford University, Stanford, CA, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-2972-462X",
+          "authenticated-orcid": false,
+          "given": "Matthew",
+          "family": "J\u00f6rke",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Stanford University, Stanford, CA, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-7290-068X",
+          "authenticated-orcid": false,
+          "given": "Madeleine",
+          "family": "Grunde-McLaughlin",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "University of Washington, Seattle, WA, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-9162-0779",
+          "authenticated-orcid": false,
+          "given": "Tobias",
+          "family": "Gerstenberg",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Stanford University, Stanford, CA, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-8020-9434",
+          "authenticated-orcid": false,
+          "given": "Michael S.",
+          "family": "Bernstein",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Stanford University, Stanford, CA, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-8784-2531",
+          "authenticated-orcid": false,
+          "given": "Ranjay",
+          "family": "Krishna",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "University of Washington, Seattle, WA, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2023,
+            4,
+            14
+          ]
+        ]
+      },
+      "container-title": [
+        "Proceedings of the ACM on Human-Computer Interaction"
+      ],
+      "volume": "7",
+      "issue": "CSCW1",
+      "page": "1-38",
+      "article-number": null,
+      "DOI": "10.1145/3579605"
+    },
+    "retrieved": true
+  },
+  {
+    "key": "nam2024llmunderstanding",
+    "source_url": "https://api.crossref.org/works/10.1145%2F3597503.3639187",
+    "metadata": {
+      "title": [
+        "Using an LLM to Help With Code Understanding"
+      ],
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0009-0006-3846-6924",
+          "authenticated-orcid": false,
+          "given": "Daye",
+          "family": "Nam",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Carnegie Mellon University, Pittsburgh, Pennsylvania, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0009-0003-8215-8513",
+          "authenticated-orcid": false,
+          "given": "Andrew",
+          "family": "Macvean",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Google, Mountain View, California, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0001-7516-0525",
+          "authenticated-orcid": false,
+          "given": "Vincent",
+          "family": "Hellendoorn",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Carnegie Mellon University, Pittsburgh, Pennsylvania, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0003-4418-5783",
+          "authenticated-orcid": false,
+          "given": "Bogdan",
+          "family": "Vasilescu",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Carnegie Mellon University, Pittsburgh, Pennsylvania, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-4769-0219",
+          "authenticated-orcid": false,
+          "given": "Brad",
+          "family": "Myers",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Carnegie Mellon University, Pittsburgh, Pennsylvania, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            4,
+            12
+          ]
+        ]
+      },
+      "container-title": [
+        "Proceedings of the IEEE/ACM 46th International Conference on Software Engineering"
+      ],
+      "volume": null,
+      "issue": null,
+      "page": "1-13",
+      "article-number": null,
+      "DOI": "10.1145/3597503.3639187"
+    },
+    "retrieved": true
+  },
+  {
+    "key": "spiess2025calibration",
+    "source_url": "https://api.crossref.org/works/10.1109%2FICSE55347.2025.00040",
+    "metadata": {
+      "title": [
+        "Calibration and Correctness of Language Models for Code"
+      ],
+      "author": [
+        {
+          "given": "Claudio",
+          "family": "Spiess",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "UC Davis,USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "David",
+          "family": "Gros",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "UC Davis,USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Kunal Suresh",
+          "family": "Pai",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "UC Davis,USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Michael",
+          "family": "Pradel",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Univ. of Stuttgart,Germany"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Md Rafiqul Islam",
+          "family": "Rabin",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Univ. of Houston,USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Amin",
+          "family": "Alipour",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Univ. of Houston,USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Susmit",
+          "family": "Jha",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "SRI,USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Prem",
+          "family": "Devanbu",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "UC Davis,USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Toufique",
+          "family": "Ahmed",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "UC Davis,USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2025,
+            4,
+            26
+          ]
+        ]
+      },
+      "container-title": [
+        "2025 IEEE/ACM 47th International Conference on Software Engineering (ICSE)"
+      ],
+      "volume": null,
+      "issue": null,
+      "page": "540-552",
+      "article-number": null,
+      "DOI": "10.1109/icse55347.2025.00040"
+    },
+    "retrieved": true
+  },
+  {
+    "key": "liu2023evalplus",
+    "source_url": "https://papers.nips.cc/paper_files/paper/2023/hash/43e9d647ccd3e4b7b5baab53f0368686-Abstract-Conference.html",
+    "metadata": {
+      "citation_title": [
+        "Is Your Code Generated by ChatGPT Really Correct? Rigorous Evaluation of Large Language Models for Code Generation"
+      ],
+      "citation_author": [
+        "Liu, Jiawei",
+        "Xia, Chunqiu Steven",
+        "Wang, Yuyao",
+        "ZHANG, LINGMING"
+      ],
+      "citation_journal_title": [
+        "Advances in Neural Information Processing Systems"
+      ],
+      "citation_volume": [
+        "36"
+      ],
+      "citation_doi": [
+        "10.52202/075280-0943"
+      ],
+      "citation_firstpage": [
+        "21558"
+      ],
+      "citation_lastpage": [
+        "21572"
+      ],
+      "citation_pdf_url": [
+        "https://proceedings.neurips.cc/paper_files/paper/2023/file/43e9d647ccd3e4b7b5baab53f0368686-Paper-Conference.pdf"
+      ],
+      "citation_publication_date": [
+        "2023-12-15"
+      ]
+    },
+    "retrieved": true
+  },
+  {
+    "key": "hui2024qwencoder",
+    "source_url": "https://arxiv.org/abs/2409.12186",
+    "metadata": {
+      "citation_title": [
+        "Qwen2.5-Coder Technical Report"
+      ],
+      "citation_author": [
+        "Hui, Binyuan",
+        "Yang, Jian",
+        "Cui, Zeyu",
+        "Yang, Jiaxi",
+        "Liu, Dayiheng",
+        "Zhang, Lei",
+        "Liu, Tianyu",
+        "Zhang, Jiajun",
+        "Yu, Bowen",
+        "Lu, Keming",
+        "Dang, Kai",
+        "Fan, Yang",
+        "Zhang, Yichang",
+        "Yang, An",
+        "Men, Rui",
+        "Huang, Fei",
+        "Zheng, Bo",
+        "Miao, Yibo",
+        "Quan, Shanghaoran",
+        "Feng, Yunlong",
+        "Ren, Xingzhang",
+        "Ren, Xuancheng",
+        "Zhou, Jingren",
+        "Lin, Junyang"
+      ],
+      "citation_date": [
+        "2024/09/18"
+      ],
+      "citation_online_date": [
+        "2024/11/12"
+      ],
+      "citation_pdf_url": [
+        "https://arxiv.org/pdf/2409.12186"
+      ],
+      "citation_arxiv_id": [
+        "2409.12186"
+      ]
+    },
+    "retrieved": true
+  },
+  {
+    "key": "parasuraman1997automation",
+    "source_url": "https://api.crossref.org/works/10.1518%2F001872097778543886",
+    "metadata": {
+      "title": [
+        "Humans and Automation: Use, Misuse, Disuse, Abuse"
+      ],
+      "author": [
+        {
+          "given": "Raja",
+          "family": "Parasuraman",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Catholic University of America, Washington, D.C"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Victor",
+          "family": "Riley",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Honeywell Technology Center, Minneapolis, Minnesota"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            1997,
+            6
+          ]
+        ]
+      },
+      "container-title": [
+        "Human Factors: The Journal of the Human Factors and Ergonomics Society"
+      ],
+      "volume": "39",
+      "issue": "2",
+      "page": "230-253",
+      "article-number": null,
+      "DOI": "10.1518/001872097778543886"
+    },
+    "retrieved": true
+  },
+  {
+    "key": "lee2004trust",
+    "source_url": "https://api.crossref.org/works/10.1518%2Fhfes.46.1.50.30392",
+    "metadata": {
+      "title": [
+        "Trust in Automation: Designing for Appropriate Reliance"
+      ],
+      "author": [
+        {
+          "given": "John D.",
+          "family": "Lee",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Katrina A.",
+          "family": "See",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2004
+          ]
+        ]
+      },
+      "container-title": [
+        "Human Factors: The Journal of the Human Factors and Ergonomics Society"
+      ],
+      "volume": "46",
+      "issue": "1",
+      "page": "50-80",
+      "article-number": null,
+      "DOI": "10.1518/hfes.46.1.50.30392"
+    },
+    "retrieved": true
+  },
+  {
+    "key": "treesitter",
+    "source_url": "https://api.github.com/repos/tree-sitter/tree-sitter/releases/tags/v0.27.2",
+    "metadata": {
+      "tag": "v0.27.2"
+    },
+    "retrieved": true,
+    "checked_binding_version": "0.26.0",
+    "correction": "Citation now identifies the installed Python binding; fetched repository tag is only source identity evidence."
+  },
+  {
+    "key": "pennington1987",
+    "source_url": "https://api.crossref.org/works/10.1016%2F0010-0285%2887%2990007-7",
+    "retrieved": true,
+    "metadata": {
+      "title": [
+        "Stimulus structures and mental representations in expert comprehension of computer programs"
+      ],
+      "subtitle": [],
+      "author": [
+        {
+          "given": "Nancy",
+          "family": "Pennington",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            1987,
+            7
+          ]
+        ]
+      },
+      "container-title": [
+        "Cognitive Psychology"
+      ],
+      "volume": "19",
+      "issue": "3",
+      "page": "295-341",
+      "article-number": null,
+      "DOI": "10.1016/0010-0285(87)90007-7"
+    }
+  },
+  {
+    "key": "chen2021commentcategory",
+    "source_url": "https://api.crossref.org/works/10.1145%2F3434280",
+    "metadata": {
+      "title": [
+        "Why My Code Summarization Model Does Not Work"
+      ],
+      "author": [
+        {
+          "given": "Qiuyuan",
+          "family": "Chen",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "College of Computer Science and Technology, Zhejiang University, Hangzhou, Zhejiang, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Xin",
+          "family": "Xia",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Faculty of Information Technology, Monash University, Victoria, Australia"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Han",
+          "family": "Hu",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Faculty of Information Technology, Monash University, Victoria, Australia"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "David",
+          "family": "Lo",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "School of Information Systems, Singapore Management University, Singapore"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Shanping",
+          "family": "Li",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "College of Computer Science and Technology, Zhejiang University, Hangzhou, Zhejiang, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2021,
+            2,
+            10
+          ]
+        ]
+      },
+      "container-title": [
+        "ACM Transactions on Software Engineering and Methodology"
+      ],
+      "volume": "30",
+      "issue": "2",
+      "page": "1-29",
+      "article-number": null,
+      "DOI": "10.1145/3434280"
+    },
+    "retrieved": true
+  },
+  {
+    "key": "tan2012tcomment",
+    "source_url": "https://api.crossref.org/works/10.1109%2FICST.2012.106",
+    "metadata": {
+      "title": [
+        "@tComment: Testing Javadoc Comments to Detect Comment-Code Inconsistencies"
+      ],
+      "author": [
+        {
+          "given": "Shin Hwei",
+          "family": "Tan",
+          "sequence": "first",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Darko",
+          "family": "Marinov",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Lin",
+          "family": "Tan",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Gary T.",
+          "family": "Leavens",
+          "sequence": "additional",
+          "affiliation": [],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2012,
+            4
+          ]
+        ]
+      },
+      "container-title": [
+        "2012 IEEE Fifth International Conference on Software Testing, Verification and Validation"
+      ],
+      "volume": null,
+      "issue": null,
+      "page": "260-269",
+      "article-number": null,
+      "DOI": "10.1109/icst.2012.106"
+    },
+    "retrieved": true
+  },
+  {
+    "key": "blasi2018jdoctor",
+    "source_url": "https://api.crossref.org/works/10.1145%2F3213846.3213872",
+    "metadata": {
+      "title": [
+        "Translating code comments to procedure specifications"
+      ],
+      "author": [
+        {
+          "given": "Arianna",
+          "family": "Blasi",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "University of Lugano, Switzerland"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Alberto",
+          "family": "Goffi",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "University of Lugano, Switzerland"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Konstantin",
+          "family": "Kuznetsov",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Saarland University, Germany / CISPA, Germany"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Alessandra",
+          "family": "Gorla",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "IMDEA Software Institute, Spain"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Michael D.",
+          "family": "Ernst",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "University of Washington, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Mauro",
+          "family": "Pezz\u00e8",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "University of Lugano, Switzerland"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Sergio Delgado",
+          "family": "Castellanos",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "IMDEA Software Institute, Spain"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2018,
+            7,
+            12
+          ]
+        ]
+      },
+      "container-title": [
+        "Proceedings of the 27th ACM SIGSOFT International Symposium on Software Testing and Analysis"
+      ],
+      "volume": null,
+      "issue": null,
+      "page": "242-253",
+      "article-number": null,
+      "DOI": "10.1145/3213846.3213872"
+    },
+    "retrieved": true
+  },
+  {
+    "key": "zhai2020c2s",
+    "source_url": "https://api.crossref.org/works/10.1145%2F3368089.3409716",
+    "metadata": {
+      "title": [
+        "C2S: translating natural language comments to formal program specifications"
+      ],
+      "author": [
+        {
+          "given": "Juan",
+          "family": "Zhai",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Rutgers University, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Yu",
+          "family": "Shi",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Purdue University, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Minxue",
+          "family": "Pan",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Nanjing University, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Guian",
+          "family": "Zhou",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Nanjing University, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Yongxiang",
+          "family": "Liu",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Nanjing University, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Chunrong",
+          "family": "Fang",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Nanjing University, China"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Shiqing",
+          "family": "Ma",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Rutgers University, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Lin",
+          "family": "Tan",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Purdue University, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Xiangyu",
+          "family": "Zhang",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Purdue University, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2020,
+            11,
+            8
+          ]
+        ]
+      },
+      "container-title": [
+        "Proceedings of the 28th ACM Joint Meeting on European Software Engineering Conference and Symposium on the Foundations of Software Engineering"
+      ],
+      "volume": null,
+      "issue": null,
+      "page": "25-37",
+      "article-number": null,
+      "DOI": "10.1145/3368089.3409716"
+    },
+    "retrieved": true
+  },
+  {
+    "key": "endres2024nl2postcond",
+    "source_url": "https://api.crossref.org/works/10.1145%2F3660791",
+    "metadata": {
+      "title": [
+        "Can Large Language Models Transform Natural Language Intent into Formal Method Postconditions?"
+      ],
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0002-4618-4939",
+          "authenticated-orcid": false,
+          "given": "Madeline",
+          "family": "Endres",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "University of Michigan, Ann Arbor, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-8486-7749",
+          "authenticated-orcid": false,
+          "given": "Sarah",
+          "family": "Fakhoury",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Microsoft Research, Seattle, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-6889-7171",
+          "authenticated-orcid": false,
+          "given": "Saikat",
+          "family": "Chakraborty",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Microsoft Research, Seattle, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "ORCID": "https://orcid.org/0000-0002-4446-4777",
+          "authenticated-orcid": false,
+          "given": "Shuvendu K.",
+          "family": "Lahiri",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Microsoft Research, Seattle, USA"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2024,
+            7,
+            12
+          ]
+        ]
+      },
+      "container-title": [
+        "Proceedings of the ACM on Software Engineering"
+      ],
+      "volume": "1",
+      "issue": "FSE",
+      "page": "1889-1912",
+      "article-number": null,
+      "DOI": "10.1145/3660791"
+    },
+    "retrieved": true
+  },
+  {
+    "key": "evident2026",
+    "source_url": "https://arxiv.org/abs/2606.15122",
+    "metadata": {
+      "citation_title": [
+        "The Hitchhiker's Guide to Program Analysis, Part III: Mostly Harmless LLMs"
+      ],
+      "citation_author": [
+        "Li, Haonan",
+        "Zhou, Tianyang",
+        "Sridharan, Manu",
+        "Zhang, Hang",
+        "Qian, Zhiyun"
+      ],
+      "citation_date": [
+        "2026/06/13"
+      ],
+      "citation_online_date": [
+        "2026/10/21"
+      ],
+      "citation_pdf_url": [
+        "https://arxiv.org/pdf/2606.15122"
+      ],
+      "citation_arxiv_id": [
+        "2606.15122"
+      ]
+    },
+    "retrieved": true
+  },
+  {
+    "key": "pennycook2020impliedtruth",
+    "source_url": "https://api.crossref.org/works/10.1287%2Fmnsc.2019.3478",
+    "metadata": {
+      "title": [
+        "The Implied Truth Effect: Attaching Warnings to a Subset of Fake News Headlines Increases Perceived Accuracy of Headlines Without Warnings"
+      ],
+      "author": [
+        {
+          "ORCID": "https://orcid.org/0000-0003-1344-6143",
+          "authenticated-orcid": false,
+          "given": "Gordon",
+          "family": "Pennycook",
+          "sequence": "first",
+          "affiliation": [
+            {
+              "name": "Hill and Levene Schools of Business, University of Regina, Regina, Saskatchewan S4S 0A2, Canada;"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Adam",
+          "family": "Bear",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Department of Psychology, Harvard University, Cambridge, Massachusetts 02138;"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "Evan T.",
+          "family": "Collins",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "School of Medicine, Yale University, New Haven, Connecticut 06510;"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        },
+        {
+          "given": "David G.",
+          "family": "Rand",
+          "sequence": "additional",
+          "affiliation": [
+            {
+              "name": "Sloan School of Management, Massachusetts Institute of Technology, Cambridge, Massachusetts 02142;"
+            },
+            {
+              "name": "Department of Brain and Cognitive Sciences, Massachusetts Institute of Technology, Cambridge, Massachusetts 02139;"
+            },
+            {
+              "name": "Institute for Data, Systems, and Society, Massachusetts Institute of Technology, Cambridge, Massachusetts 02139"
+            }
+          ],
+          "role": [
+            {
+              "vocabulary": "crossref",
+              "role": "author"
+            }
+          ]
+        }
+      ],
+      "published": {
+        "date-parts": [
+          [
+            2020,
+            11
+          ]
+        ]
+      },
+      "container-title": [
+        "Management Science"
+      ],
+      "volume": "66",
+      "issue": "11",
+      "page": "4944-4957",
+      "article-number": null,
+      "DOI": "10.1287/mnsc.2019.3478"
+    },
+    "retrieved": true
+  }
+]

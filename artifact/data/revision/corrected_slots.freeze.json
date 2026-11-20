@@ -1,0 +1,7 @@
+{
+  "sha256": "3ce360ce1ec5c0567ad88eebf0d6ecc4ae4f37d8eb0444932ce88a49d83bf73d",
+  "rows": 246,
+  "pairs": 123,
+  "status": "Frozen before corrected-slot engine comparison; assistant-coded, not gold",
+  "generator_sha256": "dc094a7f1d1051df88d43c4387419b8038efe30c99b31e11dba520178999dbfd"
+}

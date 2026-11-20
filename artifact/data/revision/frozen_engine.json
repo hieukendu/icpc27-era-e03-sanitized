@@ -1,0 +1,17 @@
+{
+  "engine": "v6.1",
+  "status": "Retrospective development corpus; no untouched current-engine test set",
+  "files_sha256": {
+    "src/discharge.py": "a4e513d46ccf2f7916deea896b195b91ce5d484e0ac7ff7b8970cbe0a50acf21",
+    "src/defuse.py": "fdbdf0cf9d3e137bd4e5a4e0bcdf129db6f27e0ba71a184dbe2f70a217bf1fe8",
+    "src/facts.py": "3b7b72a54bce462c5e759b64296014a3213bf9512befe56a59b790c51e95d1fa",
+    "src/extract.py": "ec4cf10b4f46abc9696e7c113aba868265a5a3ddce748e7ce3c24c8c7f1e18ab",
+    "src/probe.py": "9c23cd0ac2227c21d24fb0e6f5dc76ad9b69c7a1d52b760d05915503518447ef",
+    "results/discharge.jsonl": "44c05f2cae41a70f285127345f80ee7caf5149132465a3ecbb9b89a81a54b570",
+    "results/facts.jsonl": "bb73e69317f2597cecee7d15fa94d9ac7cd605299918549d52340edc8143f445",
+    "results/planted_items.json": "d08a43464574d3fccfd65b6d02f4409c911da8a722d7f091d84e4cbe62290e6b",
+    "results/planted.jsonl": "105220dad94682f7d5d8a86912b694c52503b0d0be4174980915c2bd9b5cb74e",
+    "data/true_audit.csv": "09aa832dc53156673aadd5037affe495b64c4e22bd33f38dd4380475ecb15418",
+    "data/planted_audit.csv": "0a471ba3eeb5106f7569158721bfa68b5fe3b39b7ab8c9779fb2b051e30a3721"
+  }
+}

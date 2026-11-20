@@ -1,0 +1,2 @@
+cid,decision,note
+coder14b:A077:02,correct_refutation,"ilen: `repeat(1)` is passed to compress() together with zip(iterable); it is not zipped with the input, so the sentence is false"

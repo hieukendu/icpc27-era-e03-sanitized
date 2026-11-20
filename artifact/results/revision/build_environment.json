@@ -1,0 +1,9 @@
+{
+  "python": "Python 3.13.5",
+  "pdflatex": "pdfTeX 3.14159265-2.6-1.40.21 (TeX Live 2020)",
+  "bibtex": "BibTeX 0.99d (TeX Live 2020)",
+  "pdfinfo": "pdfinfo version 26.04.0",
+  "pdftotext": "pdftotext version 26.04.0",
+  "pdftoppm": "pdftoppm version 26.04.0",
+  "scope": "Observed toolchain; Python and R package pins are supplied separately. TeX system packages must be available; PDF metadata timestamps need not reproduce byte-for-byte."
+}

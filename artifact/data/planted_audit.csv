@@ -1,0 +1,32 @@
+pid,decision,note
+62,label_ok,'size' is not a parameter; extractor re-grounded on 'errors'
+96,label_ok,the list is not stored in 'warn'; slot keeps the original _protected_args (silent correction)
+115,label_ok,copy() does not iterate the iterable; the slot checks the true kwargs.copy()->kwargs relation instead
+119,label_ok,"get_lock() retrieves a lock, not a tqdm_class; slot sink 'lock' is the original (silent correction)"
+55,label_ok,'iter2plus' is not a parameter; re-grounded on 'lock'
+30,label_ok,sorted is never called; re-grounded on a zip->sum flow
+15,label_ok,tuple is never called; re-grounded on a repeat->sum flow
+82,label_ok,"getters go into 'body', not 'attr_name'; slot keeps the original sink"
+46,label_ok,'and_' is never called; re-grounded on a flow to return
+28,label_ok,astuple is never called; re-grounded on __str__->_cls_dict
+100,label_ok,"on a miss the code calls on_miss, not _get_link_and_move_to_front_of_ll; slot checks only that the latter is called somewhere"
+88,label_ok,"v is converted into a list, not 'a self_insert'; slot checks the true flow v->self_insert call"
+92,label_ok,"the method locates an index, not 'the getActualTypeArguments'; slot checks the true flow getActualTypeArguments->return"
+58,label_ok,'constructor' is not a parameter; re-grounded on 'context'
+122,label_ok,"the supertype is of the context, not of the index; re-grounded on a call"
+79,label_ok,"digits go into num, not 'length'; slot keeps the original sink"
+110,label_ok,"joinedArray, not 'arraycopy', is returned; slot keeps the original source"
+109,label_ok,"clamping uses max0, not a 'Math' function; slot keeps the original call"
+60,label_ok,'pair' is not a parameter; re-grounded on 'start'
+85,label_ok,'ans' operation is meaningless here (filter); slot keeps the original source
+121,label_error,'determines the size of the grid `grid`' is TRUE of the code (N = len(grid)); the perturbation produced a true sentence
+72,label_ok,"the parameter is grid, not 'message'; slot keeps the original"
+114,label_ok,"fac is multiplied by i, not 'ans'; slot keeps the original source"
+108,label_ok,'iterates over a ans' is meaningless; re-grounded on the range call
+76,label_ok,"the parameters are strings, not sizes; slot keeps the original parameter name"
+24,label_ok,sorted is never called; re-grounded on a flow
+49,label_ok,'exp' is not involved; re-grounded on the set call
+23,label_ok,index is never called; re-grounded on a flow
+8,label_ok,"Counter, not deque, counts frequencies; re-grounded on the collections import"
+78,label_error,"round 4: with **kwargs now captured, optional key parameters reads as keyword arguments, which the function accepts; the perturbed sentence is plausibly true"
+20,label_error,"v6: the TRUE twin (A077, repeat(1) ... paired with the input iterable through zip) is false of the code; its label was inherited from a calls slot"

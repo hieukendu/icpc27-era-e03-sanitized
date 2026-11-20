@@ -1,0 +1,6 @@
+Simulation only; no human observations.
+Two-sided Wald contrast alpha=.05: scoped vs generic, false sentences with valid partial evidence.
+Failed fits count as non-rejections in primary power; conditional fit power also shown.
+Baseline conditional rejection=.5; misleading -.4 logits; absent +.3; links=generic.
+No random treatment slopes, dropout or learning model; these are limitations.
+No sample-size recommendation without a minimum meaningful effect and independently validated stimuli.

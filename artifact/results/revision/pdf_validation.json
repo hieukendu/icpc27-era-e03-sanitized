@@ -1,0 +1,9 @@
+{
+  "pages": 5,
+  "main_text_max_page": 4,
+  "references_start_page": 5,
+  "disclosure_page": 4,
+  "overfull_boxes": 0,
+  "undefined_references": 0,
+  "visual_review": "Required separately; structural checks are not a substitute"
+}

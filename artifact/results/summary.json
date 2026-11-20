@@ -1,0 +1,827 @@
+{
+ "H1": {
+  "beh_purpose_B_decided": {
+   "hi": 0.0312,
+   "lo": 0.0,
+   "n": 101,
+   "v": 0.0099
+  },
+  "consistent_in_residue": {
+   "hi": 0.1857,
+   "lo": 0.1121,
+   "n": 822,
+   "v": 0.1462
+  },
+  "consistent_share": {
+   "hi": 0.1145,
+   "lo": 0.0671,
+   "n": 822,
+   "v": 0.09
+  },
+  "dbp_decided": {
+   "hi": 0.3011,
+   "lo": 0.1812,
+   "n": 502,
+   "v": 0.239
+  },
+  "decided_or_consistent": {
+   "hi": 0.5291,
+   "lo": 0.4167,
+   "n": 822,
+   "v": 0.4745
+  },
+  "decided_true_share": 0.9968,
+  "full": {
+   "hi": 0.4391,
+   "lo": 0.3272,
+   "n": 822,
+   "supported": true,
+   "v": 0.3844
+  },
+  "full_without_probe_rule": {
+   "hi": 0.4509,
+   "lo": 0.3377,
+   "n": 822,
+   "v": 0.3954
+  },
+  "heldout": {
+   "hi": 0.4521,
+   "lo": 0.3016,
+   "n": 498,
+   "supported": true,
+   "v": 0.3795
+  },
+  "heldout_without_probe_rule": {
+   "hi": 0.4596,
+   "lo": 0.3117,
+   "n": 498,
+   "v": 0.3876
+  },
+  "intent_share_all_extractor": 0.2275,
+  "n_disagree_local": 9,
+  "n_texts": 740,
+  "per_round": {
+   "1": 0.4353,
+   "2": 0.3442,
+   "3": 0.3779,
+   "4": 0.3787,
+   "5": 0.3822
+  },
+  "policy_in_residue": {
+   "hi": 0.466,
+   "lo": 0.2963,
+   "n": 822,
+   "v": 0.3814
+  },
+  "rationale_in_residue": {
+   "hi": 0.1687,
+   "lo": 0.1024,
+   "n": 822,
+   "v": 0.1344
+  },
+  "rationale_share_all": {
+   "hi": 0.1047,
+   "lo": 0.0624,
+   "n": 822,
+   "v": 0.0827
+  },
+  "residue_n": 506,
+  "slice": {
+   "A-java": {
+    "hi": 0.381,
+    "lo": 0.1062,
+    "n": 126,
+    "v": 0.246
+   },
+   "A-python": {
+    "hi": 0.4882,
+    "lo": 0.3333,
+    "n": 443,
+    "v": 0.4153
+   },
+   "B": {
+    "hi": 0.5,
+    "lo": 0.2941,
+    "n": 253,
+    "v": 0.3992
+   }
+  },
+  "slice_heldout": {
+   "A-java": {
+    "hi": 0.2533,
+    "lo": 0.0333,
+    "n": 68,
+    "v": 0.1471
+   },
+   "A-python": {
+    "hi": 0.5133,
+    "lo": 0.3278,
+    "n": 279,
+    "v": 0.4229
+   },
+   "B": {
+    "hi": 0.5375,
+    "lo": 0.2667,
+    "n": 151,
+    "v": 0.404
+   }
+  },
+  "text_all_decided": 0.3338,
+  "text_any_decided": 0.3554
+ },
+ "H2": {
+  "agree": 0.951,
+  "claim_pairs": 316,
+  "coder_only": {
+   "boot_dropped": 732,
+   "hi": null,
+   "lo": null,
+   "n": 32,
+   "p_boot": null,
+   "p_perm": 1.0,
+   "rho": -0.0677,
+   "tau_b": -0.0661,
+   "x_eq_1": 31,
+   "y_eq_1": 28
+  },
+  "conf": {
+   "false/T": 1,
+   "true/F": 13,
+   "true/T": 272,
+   "true/U": 30
+  },
+  "engine_false_judge_F": 0,
+  "engine_false_n": 1,
+  "judge": "gemma2:9b",
+  "judge_F_engine_false": 0,
+  "judge_F_n": 13,
+  "kappa": -0.0065,
+  "n_expl_judged": 120,
+  "n_func": 45,
+  "n_points": 70,
+  "rest_claims": {
+   "boot_dropped": 889,
+   "hi": null,
+   "lo": null,
+   "n": 59,
+   "p_boot": null,
+   "p_perm": 1.0,
+   "rho": -0.0304,
+   "tau_b": -0.0302,
+   "x_eq_1": 58,
+   "y_eq_1": 56
+  },
+  "rest_judge_T_share": 0.9776,
+  "rest_judged_n": 447,
+  "same_claims": {
+   "boot_dropped": 724,
+   "hi": null,
+   "lo": null,
+   "n": 70,
+   "p_boot": null,
+   "p_perm": 1.0,
+   "rho": -0.0368,
+   "tau_b": -0.0362,
+   "x_eq_1": 69,
+   "y_eq_1": 64
+  }
+ },
+ "claims_per_expl": {
+  "coder14b": 7.05,
+  "frontier": 9.1944,
+  "general14b": 6.65
+ },
+ "extractor": {
+  "claims_first": 218,
+  "claims_second": 199,
+  "kappa_matched": 0.5242,
+  "matched_frac": 0.7706,
+  "n_expl": 30,
+  "n_func": 15,
+  "n_second_false": 0,
+  "sd_decided_first": 85,
+  "sd_decided_second": 64,
+  "sd_false_first": 0.0,
+  "sd_false_second": 0.0,
+  "second_false": [],
+  "type_agree_incl_unmatched": {
+   "hi": 0.6078,
+   "lo": 0.3983,
+   "n": 218,
+   "v": 0.5
+  }
+ },
+ "false_audit": {
+  "audited": 1,
+  "correct": 1,
+  "n_false_all": 1,
+  "n_false_local": 1,
+  "prev_false_all": 27,
+  "prev_false_local": 15,
+  "unaudited": []
+ },
+ "false_audit_v3": {
+  "corpus": {
+   "correct_refutation": 1,
+   "fact_bug": 8,
+   "fact_gap_splat": 5,
+   "mis_slot": 13
+  },
+  "corpus_local": {
+   "correct_refutation": 1,
+   "fact_bug": 5,
+   "fact_gap_splat": 5,
+   "mis_slot": 4
+  },
+  "planted": {
+   "correct_refutation": 1,
+   "engine_bug_fixed_v5": 1,
+   "mis_slot": 2
+  },
+  "second_v4": {
+   "correct": 0,
+   "n": 3
+  }
+ },
+ "flips": {
+  "by_family": {
+   "calls/imports": 3,
+   "flow": 38,
+   "probe": 49,
+   "returns": 30
+  },
+  "by_rule": {
+   "calls-indirect->consistent": 3,
+   "flow-control->consistent": 2,
+   "flow-self->unverifiable": 10,
+   "flow-unresolved->unverifiable": 26,
+   "probe-instantiated-consistent->consistent": 10,
+   "probe-instantiated-unverifiable->unverifiable": 32,
+   "probe-none-unverifiable->unverifiable": 7,
+   "returns-other->unverifiable": 1,
+   "returns-unchecked->consistent": 29
+  },
+  "into_true_from": {
+   "false": 8,
+   "undischargeable": 7
+  },
+  "transitions": {
+   "false->consistent": 5,
+   "false->false": 1,
+   "false->true": 8,
+   "false->unverifiable": 20,
+   "true->consistent": 44,
+   "true->true": 300,
+   "true->unverifiable": 76,
+   "undischargeable->consistent": 22,
+   "undischargeable->true": 7,
+   "undischargeable->undischargeable": 68,
+   "undischargeable->unverifiable": 90,
+   "unverifiable->consistent": 3,
+   "unverifiable->unverifiable": 178
+  },
+  "v1_decided": 0.5523,
+  "v1_true_local": 420,
+  "v1_true_to_other": 120
+ },
+ "flips_prev": {
+  "total": 34,
+  "transitions": {
+   "consistent->unverifiable": 3,
+   "false->consistent": 1,
+   "false->true": 7,
+   "false->unverifiable": 18,
+   "true->consistent": 4,
+   "true->unverifiable": 1
+  },
+  "v3_decided_local": 0.4002
+ },
+ "flips_v2_v3": {
+  "rules": {
+   "calls-absent=>calls-gated": 2,
+   "calls-absent=>calls-indirect": 1,
+   "decorator=>decorator": 4,
+   "default=>default-gated": 3,
+   "flow-none=>flow-data": 2,
+   "flow-none=>flow-receiver": 1,
+   "member=>member-compound": 17,
+   "param=>param-local": 1,
+   "param=>param-splat": 3,
+   "probe-instantiated-consistent=>probe-instantiated-unverifiable": 21,
+   "returns-content=>returns-other": 1,
+   "returns-content=>returns-unchecked": 3
+  },
+  "transitions": {
+   "consistent->unverifiable": 21,
+   "false->consistent": 2,
+   "false->true": 6,
+   "false->unverifiable": 10,
+   "true->consistent": 20
+  },
+  "v2_decided_local": 0.4234
+ },
+ "flips_v4_v5": {
+  "total": 0,
+  "transitions": {},
+  "v4_decided_local": 0.3844
+ },
+ "llm_cache": "908:7c97e8bdc0c872fa",
+ "matched_haiku_minus_local": {
+  "decided": {
+   "hi": 0.0125,
+   "lo": -0.1429,
+   "v": -0.0669
+  },
+  "false_dec": {
+   "hi": 0.0,
+   "lo": -0.0175,
+   "v": -0.0052
+  }
+ },
+ "mean_words": {
+  "coder14b": 119.3,
+  "frontier": 203.25,
+  "general14b": 129.4167
+ },
+ "models": {
+  "coder14b": "qwen2.5-coder:14b",
+  "extractor": "qwen2.5-coder:14b",
+  "extractor_second": "qwen2.5:14b",
+  "frontier": "claude-haiku-5-5",
+  "general14b": "qwen2.5:14b",
+  "judge": "gemma2:9b",
+  "judge_v1": "qwen2.5:14b",
+  "retypers": [
+   "gemma2:9b",
+   "llama3.1:8b"
+  ]
+ },
+ "n_cache": 908,
+ "n_claims": 1153,
+ "n_claims_local": 822,
+ "n_explanations": 156,
+ "n_explanations_frontier": 36,
+ "n_explanations_local": 120,
+ "n_extra_cached_coder": 36,
+ "n_func_ajava": 10,
+ "n_func_apy": 30,
+ "n_func_b": 20,
+ "n_functions": 60,
+ "n_rounds": 5,
+ "planned": {
+  "functions": 270,
+  "judge": 120,
+  "second_extraction": 100
+ },
+ "planted": [
+  {
+   "caught": 0.4894,
+   "caught_hi": 0.6341,
+   "caught_lo": 0.3333,
+   "f_to_t": 0.1489,
+   "f_to_t_hi": 0.2727,
+   "f_to_t_lo": 0.0392,
+   "kind": "calls",
+   "lost": 0.0957,
+   "lost_hi": 0.1707,
+   "lost_lo": 0.0349,
+   "n_func": 25,
+   "pairs": 47,
+   "prec_false": 0.9583,
+   "prec_false_hi": 1.0,
+   "prec_false_lo": 0.8571,
+   "true_kept": 0.7021,
+   "true_kept_hi": 0.8236,
+   "true_kept_lo": 0.5556,
+   "true_to_false": 0.0213,
+   "true_to_false_hi": 0.0698,
+   "true_to_false_lo": 0.0
+  },
+  {
+   "caught": 0.5517,
+   "caught_hi": 0.7097,
+   "caught_lo": 0.3478,
+   "f_to_t": 0.2414,
+   "f_to_t_hi": 0.4167,
+   "f_to_t_lo": 0.1071,
+   "kind": "parameter",
+   "lost": 0.069,
+   "lost_hi": 0.1296,
+   "lost_lo": 0.0179,
+   "n_func": 20,
+   "pairs": 29,
+   "prec_false": 0.9412,
+   "prec_false_hi": 1.0,
+   "prec_false_lo": 0.7778,
+   "true_kept": 0.7931,
+   "true_kept_hi": 0.9333,
+   "true_kept_lo": 0.6537,
+   "true_to_false": 0.0345,
+   "true_to_false_hi": 0.12,
+   "true_to_false_lo": 0.0
+  },
+  {
+   "caught": 0.0513,
+   "caught_hi": 0.1251,
+   "caught_lo": 0.0,
+   "f_to_t": 0.359,
+   "f_to_t_hi": 0.5429,
+   "f_to_t_lo": 0.2,
+   "kind": "flow",
+   "lost": 0.141,
+   "lost_hi": 0.2381,
+   "lost_lo": 0.0312,
+   "n_func": 23,
+   "pairs": 39,
+   "prec_false": 1.0,
+   "prec_false_hi": null,
+   "prec_false_lo": null,
+   "true_kept": 0.6923,
+   "true_kept_hi": 0.8235,
+   "true_kept_lo": 0.5484,
+   "true_to_false": 0.0,
+   "true_to_false_hi": 0.0,
+   "true_to_false_lo": 0.0
+  },
+  {
+   "caught": 1.0,
+   "caught_hi": 1.0,
+   "caught_lo": 1.0,
+   "f_to_t": 0.0,
+   "f_to_t_hi": 0.0,
+   "f_to_t_lo": 0.0,
+   "kind": "behavioural",
+   "lost": 0.0,
+   "lost_hi": 0.0,
+   "lost_lo": 0.0,
+   "n_func": 1,
+   "pairs": 1,
+   "prec_false": 1.0,
+   "prec_false_hi": 1.0,
+   "prec_false_lo": 1.0,
+   "true_kept": 1.0,
+   "true_kept_hi": 1.0,
+   "true_kept_lo": 1.0,
+   "true_to_false": 0.0,
+   "true_to_false_hi": 0.0,
+   "true_to_false_lo": 0.0
+  },
+  {
+   "caught": 0.3621,
+   "caught_hi": 0.47,
+   "caught_lo": 0.2571,
+   "f_to_t": 0.2414,
+   "f_to_t_hi": 0.339,
+   "f_to_t_lo": 0.156,
+   "kind": "all",
+   "lost": 0.1034,
+   "lost_hi": 0.1538,
+   "lost_lo": 0.0524,
+   "n_func": 48,
+   "pairs": 116,
+   "prec_false": 0.9545,
+   "prec_false_hi": 1.0,
+   "prec_false_lo": 0.8857,
+   "true_kept": 0.7241,
+   "true_kept_hi": 0.8,
+   "true_kept_lo": 0.6515,
+   "true_to_false": 0.0172,
+   "true_to_false_hi": 0.041,
+   "true_to_false_lo": 0.0
+  },
+  {
+   "caught": 0.4655,
+   "caught_hi": 0.5656,
+   "caught_lo": 0.3697,
+   "f_to_t": 0.1983,
+   "f_to_t_hi": 0.2832,
+   "f_to_t_lo": 0.125,
+   "kind": "all+E",
+   "lost": 0.1034,
+   "lost_hi": 0.1522,
+   "lost_lo": 0.0506,
+   "n_func": 48,
+   "pairs": 116,
+   "prec_false": 0.9643,
+   "prec_false_hi": 1.0,
+   "prec_false_lo": 0.9138,
+   "true_kept": 0.7241,
+   "true_kept_hi": 0.8,
+   "true_kept_lo": 0.6518,
+   "true_to_false": 0.0172,
+   "true_to_false_hi": 0.0407,
+   "true_to_false_lo": 0.0
+  }
+ ],
+ "planted_audit": {
+  "audited": 31,
+  "label_error": 3,
+  "label_ok": 28,
+  "orig_not_true_v2": 32,
+  "pairs_frozen": 151,
+  "pairs_valid": 116
+ },
+ "planted_audit_sides": {
+  "false_twins": 30,
+  "true_twins": 1
+ },
+ "planted_miss": {
+  "consistent": 1,
+  "lost": 13,
+  "n_false": 116,
+  "n_missed": 74,
+  "true_grounded_on_false_token": 5,
+  "true_regrounded_elsewhere": 11,
+  "true_silent_correction": 12,
+  "typed_rationale": 2,
+  "unverifiable": 30
+ },
+ "probe_audit": {
+  "ambiguous": 1,
+  "claim_false": 3,
+  "synthesiser_error": 16
+ },
+ "probe_audit_split": {
+  "haiku:ambiguous": 1,
+  "haiku:synthesiser_error": 7,
+  "heldout:claim_false": 3,
+  "heldout:synthesiser_error": 3,
+  "tuning:synthesiser_error": 6
+ },
+ "probe_partition": {
+  "inst_consistent": 22,
+  "inst_disagreement": 16,
+  "inst_error": 1,
+  "inst_invalid_pre": 3,
+  "inst_no_call": 12,
+  "inst_nondiscriminating": 10,
+  "inst_vacuous_pre": 41,
+  "no_executable_probe": 19,
+  "no_probe_returned": 10,
+  "stated_true": 2,
+  "stated_unverifiable": 1
+ },
+ "probe_partition_sum": 137,
+ "probes": {
+  "by_conc": {
+   "instantiated": {
+    "consistent": 22,
+    "unverifiable": 83
+   },
+   "none": {
+    "unverifiable": 19
+   },
+   "stated": {
+    "true": 2,
+    "unverifiable": 1
+   }
+  },
+  "consistent_n": 22,
+  "consistent_pre_true": 15,
+  "errors": 4,
+  "instance_disagreement": 16,
+  "invalid_pre": 44,
+  "local_n": 101,
+  "n": 137,
+  "no_probe": 41,
+  "nondiscriminating": 10,
+  "raised": 1,
+  "v1_true_now": {
+   "consistent": 11,
+   "true": 2,
+   "unverifiable": 52
+  },
+  "v2_consistent_n": 52,
+  "v2_consistent_pre_true": 42
+ },
+ "profile": [
+  {
+   "consistent": 0.0898,
+   "decided": 0.3759,
+   "decided_hi": 0.4484,
+   "decided_lo": 0.3002,
+   "false_dec": 0.0063,
+   "false_dec_hi": 0.0207,
+   "false_dec_lo": 0.0,
+   "false_dec_no_inst": 0.0063,
+   "key": "coder14b",
+   "label": "Qwen2.5-Coder-14B",
+   "n_claims": 423,
+   "n_func": 60,
+   "share_behavioural": 0.2388,
+   "share_dataflow": 0.1891,
+   "share_purpose": 0.1513,
+   "share_rationale": 0.0969,
+   "share_structural": 0.3239
+  },
+  {
+   "consistent": 0.0902,
+   "decided": 0.3935,
+   "decided_hi": 0.4478,
+   "decided_lo": 0.3359,
+   "false_dec": 0.0,
+   "false_dec_hi": 0.0,
+   "false_dec_lo": 0.0,
+   "false_dec_no_inst": 0.0,
+   "key": "general14b",
+   "label": "Qwen2.5-14B",
+   "n_claims": 399,
+   "n_func": 60,
+   "share_behavioural": 0.2456,
+   "share_dataflow": 0.2607,
+   "share_purpose": 0.1378,
+   "share_rationale": 0.0677,
+   "share_structural": 0.2882
+  },
+  {
+   "consistent": 0.0423,
+   "decided": 0.3202,
+   "decided_hi": 0.3869,
+   "decided_lo": 0.2569,
+   "false_dec": 0.0,
+   "false_dec_hi": 0.0,
+   "false_dec_lo": 0.0,
+   "false_dec_no_inst": 0.0,
+   "key": "frontier",
+   "label": "Claude Haiku 5.5 (r1--3)",
+   "n_claims": 331,
+   "n_func": 36,
+   "share_behavioural": 0.2387,
+   "share_dataflow": 0.2085,
+   "share_purpose": 0.136,
+   "share_rationale": 0.142,
+   "share_structural": 0.2749
+  },
+  {
+   "consistent": 0.09,
+   "decided": 0.3844,
+   "decided_hi": 0.4391,
+   "decided_lo": 0.3272,
+   "false_dec": 0.0032,
+   "false_dec_hi": 0.0112,
+   "false_dec_lo": 0.0,
+   "false_dec_no_inst": 0.0032,
+   "key": "local",
+   "label": "Local, all rounds",
+   "n_claims": 822,
+   "n_func": 60,
+   "share_behavioural": 0.2421,
+   "share_dataflow": 0.2238,
+   "share_purpose": 0.1448,
+   "share_rationale": 0.0827,
+   "share_structural": 0.3066
+  },
+  {
+   "consistent": 0.0964,
+   "decided": 0.3795,
+   "decided_hi": 0.4521,
+   "decided_lo": 0.3016,
+   "false_dec": 0.0053,
+   "false_dec_hi": 0.0179,
+   "false_dec_lo": 0.0,
+   "false_dec_no_inst": 0.0053,
+   "key": "heldout",
+   "label": "Local, held-out r3--5",
+   "n_claims": 498,
+   "n_func": 36,
+   "share_behavioural": 0.2369,
+   "share_dataflow": 0.239,
+   "share_purpose": 0.1466,
+   "share_rationale": 0.0863,
+   "share_structural": 0.2912
+  },
+  {
+   "consistent": 0.0632,
+   "decided": 0.4153,
+   "decided_hi": 0.4882,
+   "decided_lo": 0.3333,
+   "false_dec": 0.0054,
+   "false_dec_hi": 0.0193,
+   "false_dec_lo": 0.0,
+   "false_dec_no_inst": 0.0054,
+   "key": "A-python",
+   "label": "Python repos",
+   "n_claims": 443,
+   "n_func": 30,
+   "share_behavioural": 0.1828,
+   "share_dataflow": 0.2257,
+   "share_purpose": 0.1603,
+   "share_rationale": 0.0993,
+   "share_structural": 0.3318
+  },
+  {
+   "consistent": 0.127,
+   "decided": 0.246,
+   "decided_hi": 0.381,
+   "decided_lo": 0.1062,
+   "false_dec": 0.0,
+   "false_dec_hi": 0.0,
+   "false_dec_lo": 0.0,
+   "false_dec_no_inst": 0.0,
+   "key": "A-java",
+   "label": "Java repos",
+   "n_claims": 126,
+   "n_func": 10,
+   "share_behavioural": 0.3571,
+   "share_dataflow": 0.1667,
+   "share_purpose": 0.1587,
+   "share_rationale": 0.0873,
+   "share_structural": 0.2302
+  },
+  {
+   "consistent": 0.1186,
+   "decided": 0.3992,
+   "decided_hi": 0.5,
+   "decided_lo": 0.2941,
+   "false_dec": 0.0,
+   "false_dec_hi": 0.0,
+   "false_dec_lo": 0.0,
+   "false_dec_no_inst": 0.0,
+   "key": "B",
+   "label": "EvalPlus",
+   "n_claims": 253,
+   "n_func": 20,
+   "share_behavioural": 0.2885,
+   "share_dataflow": 0.249,
+   "share_purpose": 0.1107,
+   "share_rationale": 0.0514,
+   "share_structural": 0.3004
+  }
+ ],
+ "retype": {
+  "agree_primary_extractor_subtype": 0.7168,
+  "agree_primary_second": 0.8094,
+  "functional_primary": 0.5878,
+  "functional_second": 0.5108,
+  "kappa_primary_extractor_subtype": 0.3993,
+  "kappa_primary_second": 0.6173,
+  "n_both": 278,
+  "n_intent": 279,
+  "n_labelled_primary": 279,
+  "n_labelled_second": 278,
+  "rationale_share_all_second": 0.0998
+ },
+ "true_audit": {
+  "asserts_more": 33,
+  "n": 40,
+  "pure": 6,
+  "slot_unrelated": 1
+ },
+ "typology": [
+  {
+   "consistent": 33,
+   "decided_share": 0.7778,
+   "false": 0,
+   "n": 252,
+   "share": 0.3066,
+   "true": 196,
+   "type": "structural",
+   "undischargeable": 0,
+   "unverifiable": 23
+  },
+  {
+   "consistent": 5,
+   "decided_share": 0.6087,
+   "false": 1,
+   "n": 184,
+   "share": 0.2238,
+   "true": 111,
+   "type": "dataflow",
+   "undischargeable": 0,
+   "unverifiable": 67
+  },
+  {
+   "consistent": 14,
+   "decided_share": 0.005,
+   "false": 0,
+   "n": 199,
+   "share": 0.2421,
+   "true": 1,
+   "type": "behavioural",
+   "undischargeable": 0,
+   "unverifiable": 184
+  },
+  {
+   "consistent": 22,
+   "decided_share": 0.0588,
+   "false": 0,
+   "n": 119,
+   "share": 0.1448,
+   "true": 7,
+   "type": "purpose",
+   "undischargeable": 0,
+   "unverifiable": 90
+  },
+  {
+   "consistent": 0,
+   "decided_share": 0.0,
+   "false": 0,
+   "n": 68,
+   "share": 0.0827,
+   "true": 0,
+   "type": "rationale",
+   "undischargeable": 68,
+   "unverifiable": 0
+  }
+ ]
+}

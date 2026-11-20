@@ -1,0 +1,13 @@
+{
+  "equal": true,
+  "files_sha256": {
+    "results/summary.json": "01344a47b5a2dc9ce761692aa5dc26ac62c902685c8444a054d77369c036ad16",
+    "results/revision/summary.json": "939cd7630da0b6bec746b4335a224a61209cfea39bbfe594af3320821689e372",
+    "results/revision/planted_ledger.csv": "3e895bae1f57ae30b72345b39318ab7b2f2fd535f9e9a4c92450c251b3c8aac0",
+    "results/revision/slot_ablation.jsonl": "ffea31446b1a8337b8c665336e38a32836335c9f282d766d38738446a4110d7c",
+    "results/revision/prevalence_sensitivity.csv": "109f120bd69579c5bccd6acb4e4935fd1945b5e3de635f9d401cc128aecd223a",
+    "results/revision/risk_coverage.csv": "4626c6b3b8dddcb1d1e4e9ab5f5149c89a4c6071ed9c1ae669239ebde914dc00",
+    "results/revision/claim_contracts.jsonl": "1a6d3fb8929798ca7cc2883a6b4d16f2deed05261eeb2b7f7938b73761f636de"
+  },
+  "scope": "Repeated revised numeric and claim/annotation/ledger outputs; original summary retained from full offline replay. PDF timestamps are not compared."
+}

@@ -1,0 +1,50 @@
+{
+ "attrs": {
+  "candidates": 105,
+  "commit": "9d9f94a043de7fc4012459853a4ed597a5577855",
+  "lang": "python",
+  "sampled": 25
+ },
+ "boltons": {
+  "candidates": 457,
+  "commit": "d31d821d56c8f7756af9c30a864077f2e5855321",
+  "lang": "python",
+  "sampled": 25
+ },
+ "click": {
+  "candidates": 276,
+  "commit": "8abb77a8432e03ed14a95f972b44f905279415a7",
+  "lang": "python",
+  "sampled": 25
+ },
+ "commons-lang": {
+  "candidates": 1381,
+  "commit": "42bd1f218caf86df139b08d010334e97392af80d",
+  "lang": "java",
+  "sampled": 20
+ },
+ "gson": {
+  "candidates": 413,
+  "commit": "65df6e5a99747f73d386f3a61d887a0257255e0f",
+  "lang": "java",
+  "sampled": 20
+ },
+ "more-itertools": {
+  "candidates": 188,
+  "commit": "f42daddf205f335fea6e200dad46049f33e71221",
+  "lang": "python",
+  "sampled": 25
+ },
+ "requests": {
+  "candidates": 140,
+  "commit": "3c7baaa05ab4aa49cc819ce3a819d260de19c157",
+  "lang": "python",
+  "sampled": 25
+ },
+ "tqdm": {
+  "candidates": 113,
+  "commit": "9cf5a12b1f955468a17f0ba3c59092b23e4258ac",
+  "lang": "python",
+  "sampled": 25
+ }
+}
